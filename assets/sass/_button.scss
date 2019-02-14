@@ -1,0 +1,42 @@
+@mixin button-bg($bg) {
+    background: $bg;
+    &:hover {
+        background: darken($bg, 10%);
+        transition: all 0.3s ease;
+    }
+    &:active {
+        background: darken($bg, 25%);
+    }
+}
+
+// Basic button style CSS selector and its properties
+%basic-button {
+    background: #d2d2d2;
+    padding: 10px 30px;
+    color: #232323;
+    letter-spacing: 1.5px;
+    font-family: $ff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+    -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
+    -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
+    box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
+    border-radius: 15px 50px;
+    margin: 0 auto;
+}
+
+#basicButtonBlue {
+    @include button-bg(#19b5ff);
+    @extend %basic-button;
+}
+
+#basicButtonRed {
+    @include button-bg(#fc7a66);
+    @extend %basic-button;
+}
+
+#basicButtonGreen {
+    @include button-bg(#7eba6d);
+    @extend %basic-button;
+}

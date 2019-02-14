@@ -1,1 +1,69 @@
-body { background: #f2f2f2; font-family: arial; }
+body {
+  background: #d0d0d0;
+  font-family: arial;
+}
+
+#mainTitle {
+  font-size: 48px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Homemade Apple", cursive;
+  letter-spacing: 1.5px;
+}
+
+main {
+  margin-top: 50px;
+  margin: 0 auto;
+}
+
+#basicButtonGreen, #basicButtonRed, #basicButtonBlue {
+  background: #d2d2d2;
+  padding: 10px 30px;
+  color: #232323;
+  letter-spacing: 1.5px;
+  font-family: arial;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+  -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  border-radius: 15px 50px;
+  margin: 0 auto;
+}
+
+#basicButtonBlue {
+  background: #19b5ff;
+}
+#basicButtonBlue:hover {
+  background: #009be5;
+  transition: all 0.3s ease;
+}
+#basicButtonBlue:active {
+  background: #006799;
+}
+
+#basicButtonRed {
+  background: #fc7a66;
+}
+#basicButtonRed:hover {
+  background: #fb4f34;
+  transition: all 0.3s ease;
+}
+#basicButtonRed:active {
+  background: #de2104;
+}
+
+#basicButtonGreen {
+  background: #7eba6d;
+}
+#basicButtonGreen:hover {
+  background: #62a64e;
+  transition: all 0.3s ease;
+}
+#basicButtonGreen:active {
+  background: #437236;
+}
+
+/*# sourceMappingURL=style.css.map */

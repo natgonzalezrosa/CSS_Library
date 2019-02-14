@@ -1,7 +1,27 @@
-$bg: #f2f2f2;
+$bg: #d0d0d0;
 $ff: arial;
+$ff2: 'Khula', sans-serif;
 
 body {
     background: $bg;
     font-family: $ff;
 }
+
+#mainTitle {
+    font-size: 48px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
+    letter-spacing: 1.5px;
+}
+
+main {
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+
+
+// Imports button styles
+@import "button";
