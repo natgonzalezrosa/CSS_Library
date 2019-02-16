@@ -26,17 +26,62 @@
     margin: 0 auto;
 }
 
-#basicButtonBlue {
-    @include button-bg(#19b5ff);
+#basicButtonRobin {
+    @include button-bg(#94d2ff);
     @extend %basic-button;
+    margin: 10px 20px;
 }
 
-#basicButtonRed {
+#basicButtonStrawberry {
     @include button-bg(#fc7a66);
     @extend %basic-button;
+    margin: 10px 20px;
 }
 
-#basicButtonGreen {
-    @include button-bg(#7eba6d);
+#basicButtonAvocado {
+    @include button-bg(#bada55);
     @extend %basic-button;
+    margin: 10px 20px;
+}
+
+#basicButtonHoneyDew {
+    @include button-bg(#fef88c);
+    @extend %basic-button;
+    margin: 10px 20px;
+}
+
+#basicButtonLilac {
+    @include button-bg(#d8b2d8);
+    @extend %basic-button;
+    margin: 10px 20px;
+}
+
+#basicButtonLilac {
+    @include button-bg(#d8b2d8);
+    @extend %basic-button;
+    margin: 10px 20px;
+}
+
+#basicButtonTeal {
+    @include button-bg(#9bdddd);
+    @extend %basic-button;
+    margin: 10px 20px;
+}
+
+#basicButtonCocoa {
+    @include button-bg(#c9b2b4);
+    @extend %basic-button;
+    margin: 10px 20px;
+}
+
+#basicButtonGrass {
+    @include button-bg(#7fc3a1);
+    @extend %basic-button;
+    margin: 10px 20px;
+}
+
+#basicButtonTangerine {
+    @include button-bg(#ffa584);
+    @extend %basic-button;
+    margin: 10px 20px;
 }
