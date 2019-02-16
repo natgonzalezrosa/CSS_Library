@@ -2,46 +2,90 @@ body { background: #d0d0d0; font-family: arial; }
 
 #mainTitle { font-size: 48px; margin: 0 auto; margin-top: 50px; text-align: center; font-family: 'Homemade Apple', cursive; letter-spacing: 1.5px; }
 
+.subtitle { font-size: 24px; text-decoration: underline; margin: 0 auto; margin-top: 50px; margin-bottom: 20px; text-align: center; font-family: 'Homemade Apple', cursive; letter-spacing: 1.2px; }
+
 main { margin-top: 50px; margin: 0 auto; width: 600px; }
 
-#basicButtonRobin, #basicButtonStrawberry, #basicButtonAvocado, #basicButtonHoneyDew, #basicButtonLilac, #basicButtonTeal, #basicButtonCocoa, #basicButtonGrass, #basicButtonTangerine { background: #d2d2d2; padding: 10px 30px; color: #232323; letter-spacing: 1.5px; font-family: arial; font-weight: 700; text-decoration: none; font-size: 18px; -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; border-radius: 15px 50px; margin: 0 auto; }
+#basicButtonRobinLeft, #basicButtonStrawberryLeft, #basicButtonAvocadoLeft, #basicButtonHoneyDewLeft, #basicButtonLilacLeft, #basicButtonTealLeft, #basicButtonCocoaLeft, #basicButtonGrassLeft, #basicButtonTangerineLeft { background: #d2d2d2; padding: 10px 30px; color: #232323; letter-spacing: 1.5px; font-family: arial; font-weight: 700; text-decoration: none; font-size: 18px; -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; border-radius: 15px 50px; margin: 0 auto; }
 
-#basicButtonRobin { background: #94d2ff; margin: 10px 20px; }
-#basicButtonRobin:hover { background: #61bdff; transition: all 0.3s ease; }
-#basicButtonRobin:active { background: #159cff; }
+#basicButtonRobinLeft { background: #94d2ff; margin: 10px 20px; }
+#basicButtonRobinLeft:hover { background: #61bdff; transition: all 0.3s ease; }
+#basicButtonRobinLeft:active { background: #159cff; }
 
-#basicButtonStrawberry { background: #fc7a66; margin: 10px 20px; }
-#basicButtonStrawberry:hover { background: #fb4f34; transition: all 0.3s ease; }
-#basicButtonStrawberry:active { background: #de2104; }
+#basicButtonStrawberryLeft { background: #fc7a66; margin: 10px 20px; }
+#basicButtonStrawberryLeft:hover { background: #fb4f34; transition: all 0.3s ease; }
+#basicButtonStrawberryLeft:active { background: #de2104; }
 
-#basicButtonAvocado { background: #bada55; margin: 10px 20px; }
-#basicButtonAvocado:hover { background: #a8cf2d; transition: all 0.3s ease; }
-#basicButtonAvocado:active { background: #75901f; }
+#basicButtonAvocadoLeft { background: #bada55; margin: 10px 20px; }
+#basicButtonAvocadoLeft:hover { background: #a8cf2d; transition: all 0.3s ease; }
+#basicButtonAvocadoLeft:active { background: #75901f; }
 
-#basicButtonHoneyDew { background: #fef88c; margin: 10px 20px; }
-#basicButtonHoneyDew:hover { background: #fef559; transition: all 0.3s ease; }
-#basicButtonHoneyDew:active { background: #fdf00e; }
+#basicButtonHoneyDewLeft { background: #fef88c; margin: 10px 20px; }
+#basicButtonHoneyDewLeft:hover { background: #fef559; transition: all 0.3s ease; }
+#basicButtonHoneyDewLeft:active { background: #fdf00e; }
 
-#basicButtonLilac { background: #d8b2d8; margin: 10px 20px; }
-#basicButtonLilac:hover { background: #c790c7; transition: all 0.3s ease; }
-#basicButtonLilac:active { background: #ad5dad; }
+#basicButtonLilacLeft { background: #d8b2d8; margin: 10px 20px; }
+#basicButtonLilacLeft:hover { background: #c790c7; transition: all 0.3s ease; }
+#basicButtonLilacLeft:active { background: #ad5dad; }
 
-#basicButtonLilac { background: #d8b2d8; margin: 10px 20px; }
-#basicButtonLilac:hover { background: #c790c7; transition: all 0.3s ease; }
-#basicButtonLilac:active { background: #ad5dad; }
+#basicButtonLilacLeft { background: #d8b2d8; margin: 10px 20px; }
+#basicButtonLilacLeft:hover { background: #c790c7; transition: all 0.3s ease; }
+#basicButtonLilacLeft:active { background: #ad5dad; }
 
-#basicButtonTeal { background: #9bdddd; margin: 10px 20px; }
-#basicButtonTeal:hover { background: #75d0d0; transition: all 0.3s ease; }
-#basicButtonTeal:active { background: #3fb9b9; }
+#basicButtonTealLeft { background: #9bdddd; margin: 10px 20px; }
+#basicButtonTealLeft:hover { background: #75d0d0; transition: all 0.3s ease; }
+#basicButtonTealLeft:active { background: #3fb9b9; }
 
-#basicButtonCocoa { background: #c9b2b4; margin: 10px 20px; }
-#basicButtonCocoa:hover { background: #b49497; transition: all 0.3s ease; }
-#basicButtonCocoa:active { background: #94686c; }
+#basicButtonCocoaLeft { background: #c9b2b4; margin: 10px 20px; }
+#basicButtonCocoaLeft:hover { background: #b49497; transition: all 0.3s ease; }
+#basicButtonCocoaLeft:active { background: #94686c; }
 
-#basicButtonGrass { background: #7fc3a1; margin: 10px 20px; }
-#basicButtonGrass:hover { background: #5cb388; transition: all 0.3s ease; }
-#basicButtonGrass:active { background: #3e8461; }
+#basicButtonGrassLeft { background: #7fc3a1; margin: 10px 20px; }
+#basicButtonGrassLeft:hover { background: #5cb388; transition: all 0.3s ease; }
+#basicButtonGrassLeft:active { background: #3e8461; }
 
-#basicButtonTangerine { background: #ffa584; margin: 10px 20px; }
-#basicButtonTangerine:hover { background: #ff8051; transition: all 0.3s ease; }
-#basicButtonTangerine:active { background: #ff4805; }
+#basicButtonTangerineLeft { background: #ffa584; margin: 10px 20px; }
+#basicButtonTangerineLeft:hover { background: #ff8051; transition: all 0.3s ease; }
+#basicButtonTangerineLeft:active { background: #ff4805; }
+
+#basicButtonRobinRight, #basicButtonStrawberryRight, #basicButtonAvocadoRight, #basicButtonHoneyDewRight, #basicButtonLilacRight, #basicButtonTealRight, #basicButtonCocoaRight, #basicButtonGrassRight, #basicButtonTangerineRight { background: #d2d2d2; padding: 10px 30px; color: #232323; letter-spacing: 1.5px; font-family: arial; font-weight: 700; text-decoration: none; font-size: 18px; -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; border-radius: 50px 15px; margin: 0 auto; }
+
+#basicButtonRobinRight { background: #94d2ff; margin: 10px 20px; }
+#basicButtonRobinRight:hover { background: #61bdff; transition: all 0.3s ease; }
+#basicButtonRobinRight:active { background: #159cff; }
+
+#basicButtonStrawberryRight { background: #fc7a66; margin: 10px 20px; }
+#basicButtonStrawberryRight:hover { background: #fb4f34; transition: all 0.3s ease; }
+#basicButtonStrawberryRight:active { background: #de2104; }
+
+#basicButtonAvocadoRight { background: #bada55; margin: 10px 20px; }
+#basicButtonAvocadoRight:hover { background: #a8cf2d; transition: all 0.3s ease; }
+#basicButtonAvocadoRight:active { background: #75901f; }
+
+#basicButtonHoneyDewRight { background: #fef88c; margin: 10px 20px; }
+#basicButtonHoneyDewRight:hover { background: #fef559; transition: all 0.3s ease; }
+#basicButtonHoneyDewRight:active { background: #fdf00e; }
+
+#basicButtonLilacRight { background: #d8b2d8; margin: 10px 20px; }
+#basicButtonLilacRight:hover { background: #c790c7; transition: all 0.3s ease; }
+#basicButtonLilacRight:active { background: #ad5dad; }
+
+#basicButtonLilacRight { background: #d8b2d8; margin: 10px 20px; }
+#basicButtonLilacRight:hover { background: #c790c7; transition: all 0.3s ease; }
+#basicButtonLilacRight:active { background: #ad5dad; }
+
+#basicButtonTealRight { background: #9bdddd; margin: 10px 20px; }
+#basicButtonTealRight:hover { background: #75d0d0; transition: all 0.3s ease; }
+#basicButtonTealRight:active { background: #3fb9b9; }
+
+#basicButtonCocoaRight { background: #c9b2b4; margin: 10px 20px; }
+#basicButtonCocoaRight:hover { background: #b49497; transition: all 0.3s ease; }
+#basicButtonCocoaRight:active { background: #94686c; }
+
+#basicButtonGrassRight { background: #7fc3a1; margin: 10px 20px; }
+#basicButtonGrassRight:hover { background: #5cb388; transition: all 0.3s ease; }
+#basicButtonGrassRight:active { background: #3e8461; }
+
+#basicButtonTangerineRight { background: #ffa584; margin: 10px 20px; }
+#basicButtonTangerineRight:hover { background: #ff8051; transition: all 0.3s ease; }
+#basicButtonTangerineRight:active { background: #ff4805; }

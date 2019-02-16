@@ -16,13 +16,22 @@ body {
     letter-spacing: 1.5px;
 }
 
+.subtitle {
+    font-size: 24px;
+    text-decoration: underline;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
+    letter-spacing: 1.2px;
+}
+
 main {
     margin-top: 50px;
     margin: 0 auto;
     width: 600px;
 }
-
-
 
 // Imports button styles
 @import "button";
