@@ -6,7 +6,7 @@ body { background: #d0d0d0; font-family: arial; }
 
 main { margin-top: 50px; margin: 0 auto; width: 600px; }
 
-#basicButtonRobinLeft, #basicButtonStrawberryLeft, #basicButtonAvocadoLeft, #basicButtonHoneyDewLeft, #basicButtonLilacLeft, #basicButtonTealLeft, #basicButtonCocoaLeft, #basicButtonGrassLeft, #basicButtonTangerineLeft { background: #d2d2d2; padding: 10px 30px; color: #232323; letter-spacing: 1.5px; font-family: arial; font-weight: 700; text-decoration: none; font-size: 18px; -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; border-radius: 15px 50px; margin: 0 auto; }
+#basicButtonRobinLeft, #basicButtonStrawberryLeft, #basicButtonAvocadoLeft, #basicButtonHoneyDewLeft, #basicButtonLilacLeft, #basicButtonTealLeft, #basicButtonCocoaLeft, #basicButtonGrassLeft, #basicButtonTangerineLeft { background: #d2d2d2; padding: 10px 30px; color: #232323; letter-spacing: 1.5px; font-family: arial; font-weight: 700; text-decoration: none; font-size: 18px; -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; border-radius: 15px 50px; margin: 0 auto; cursor: crosshair; }
 
 #basicButtonRobinLeft { background: #94d2ff; margin: 10px 20px; }
 #basicButtonRobinLeft:hover { background: #61bdff; transition: all 0.3s ease; }
@@ -48,7 +48,7 @@ main { margin-top: 50px; margin: 0 auto; width: 600px; }
 #basicButtonTangerineLeft:hover { background: #ff8051; transition: all 0.3s ease; }
 #basicButtonTangerineLeft:active { background: #ff4805; }
 
-#basicButtonRobinRight, #basicButtonStrawberryRight, #basicButtonAvocadoRight, #basicButtonHoneyDewRight, #basicButtonLilacRight, #basicButtonTealRight, #basicButtonCocoaRight, #basicButtonGrassRight, #basicButtonTangerineRight { background: #d2d2d2; padding: 10px 30px; color: #232323; letter-spacing: 1.5px; font-family: arial; font-weight: 700; text-decoration: none; font-size: 18px; -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; border-radius: 50px 15px; margin: 0 auto; }
+#basicButtonRobinRight, #basicButtonStrawberryRight, #basicButtonAvocadoRight, #basicButtonHoneyDewRight, #basicButtonLilacRight, #basicButtonTealRight, #basicButtonCocoaRight, #basicButtonGrassRight, #basicButtonTangerineRight { background: #d2d2d2; padding: 10px 30px; color: #232323; letter-spacing: 1.5px; font-family: arial; font-weight: 700; text-decoration: none; font-size: 18px; -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; border-radius: 50px 15px; margin: 0 auto; cursor: crosshair; }
 
 #basicButtonRobinRight { background: #94d2ff; margin: 10px 20px; }
 #basicButtonRobinRight:hover { background: #61bdff; transition: all 0.3s ease; }
@@ -89,3 +89,20 @@ main { margin-top: 50px; margin: 0 auto; width: 600px; }
 #basicButtonTangerineRight { background: #ffa584; margin: 10px 20px; }
 #basicButtonTangerineRight:hover { background: #ff8051; transition: all 0.3s ease; }
 #basicButtonTangerineRight:active { background: #ff4805; }
+
+.gradient-button.color-blue { background-image: linear-gradient(to left, #25aae1, #4481eb, #04befe, #3f86ed); padding: 10px 30px; color: #232323; letter-spacing: 1.5px; font-family: arial; font-weight: 700; text-decoration: none; font-size: 18px; border-radius: 50px 15px; margin: 0 auto; cursor: crosshair; -moz-transition: all .5 ease-in-out; -o-transition: all .5s ease-in-out; -webkit-transition: all .5 ease-in-out; transition: all .5s ease-in-out; box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75); }
+.gradient-button.color-blue:hover { background-position: 100% 0; -moz-transition: all .5 ease-in-out; -o-transition: all .5 ease-in-out; -webkit-transition: all .5 ease-in-out; transition: all .5 ease-in-out; }
+
+/* 
+// Gradient button and its properties
+%gradient-button { background: #d2d2d2; padding: 10px 30px; color: #232323; letter-spacing: 1.5px; font-family: $ff; font-weight: 700; text-decoration: none; font-size: 18px; border-radius: 50px 15px; margin: 0 auto; cursor: crosshair; -moz-transition: all .5 ease-in-out; -o-transition: all .5s ease-in-out; -webkit-transition: all .5 ease-in-out; transition: all .5s ease-in-out;
+}
+
+%gradient-button:hover { background-position: 100% 0; -moz-transition: all .5 ease-in-out; -o-transition: all .5 ease-in-out; -webkit-transition: all .5 ease-in-out; transition: all .5 ease-in-out;
+}
+
+%gradient-button:focus { outline: none;
+}
+
+.gradient-button.color-blue { @extend %gradient-button; margin: 10px 20px; background-image: linear-gradient(to left, #25aae1, #4481eb, #04befe, #3f86ed); box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+} */

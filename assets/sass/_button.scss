@@ -24,6 +24,7 @@
     box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
     border-radius: 15px 50px;
     margin: 0 auto;
+    cursor: crosshair;
 }
 
 // Basic Button Colors with Left Tilt
@@ -102,6 +103,7 @@
     box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
     border-radius: 50px 15px;
     margin: 0 auto;
+    cursor: crosshair;
 }
 
 // Basic Button Colors with Right Tilt
@@ -164,3 +166,79 @@
     @extend %basic-button-right;
     margin: 10px 20px;
 }
+
+
+
+
+
+@mixin gradient-bg($bg1, $bg2, $bg3, $bg4) {
+    background-image: linear-gradient(to left, $bg1, $bg2, $bg3, $bg4);
+    padding: 10px 30px;
+    color: #232323;
+    letter-spacing: 1.5px;
+    font-family: $ff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 50px 15px;
+    margin: 0 auto;
+    cursor: crosshair;
+    -moz-transition: all .5 ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5 ease-in-out;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+    &:hover {
+        background-position: 100% 0;
+        -moz-transition: all .5 ease-in-out;
+        -o-transition: all .5 ease-in-out;
+        -webkit-transition: all .5 ease-in-out;
+        transition: all .5 ease-in-out;
+    }
+}
+
+.gradient-button.color-blue {
+    @include gradient-bg(#25aae1, #4481eb, #04befe, #3f86ed)
+}
+
+
+
+
+/* 
+// Gradient button and its properties
+%gradient-button {
+    background: #d2d2d2;
+    padding: 10px 30px;
+    color: #232323;
+    letter-spacing: 1.5px;
+    font-family: $ff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 50px 15px;
+    margin: 0 auto;
+    cursor: crosshair;
+    -moz-transition: all .5 ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5 ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+%gradient-button:hover {
+    background-position: 100% 0;
+    -moz-transition: all .5 ease-in-out;
+    -o-transition: all .5 ease-in-out;
+    -webkit-transition: all .5 ease-in-out;
+    transition: all .5 ease-in-out;
+}
+
+%gradient-button:focus {
+    outline: none;
+}
+
+.gradient-button.color-blue {
+    @extend %gradient-button;
+    margin: 10px 20px;
+    background-image: linear-gradient(to left, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+} */
