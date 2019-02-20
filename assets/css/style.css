@@ -11,98 +11,105 @@ main { margin-top: 50px; margin: 0 auto; width: 600px; }
 #basicButtonRobinLeft { background: #94d2ff; margin: 10px 20px; }
 #basicButtonRobinLeft:hover { background: #61bdff; transition: all 0.3s ease; }
 #basicButtonRobinLeft:active { background: #159cff; }
+#basicButtonRobinLeft:focus { outline: none; }
 
 #basicButtonStrawberryLeft { background: #fc7a66; margin: 10px 20px; }
 #basicButtonStrawberryLeft:hover { background: #fb4f34; transition: all 0.3s ease; }
 #basicButtonStrawberryLeft:active { background: #de2104; }
+#basicButtonStrawberryLeft:focus { outline: none; }
 
 #basicButtonAvocadoLeft { background: #bada55; margin: 10px 20px; }
 #basicButtonAvocadoLeft:hover { background: #a8cf2d; transition: all 0.3s ease; }
 #basicButtonAvocadoLeft:active { background: #75901f; }
+#basicButtonAvocadoLeft:focus { outline: none; }
 
 #basicButtonHoneyDewLeft { background: #fef88c; margin: 10px 20px; }
 #basicButtonHoneyDewLeft:hover { background: #fef559; transition: all 0.3s ease; }
 #basicButtonHoneyDewLeft:active { background: #fdf00e; }
+#basicButtonHoneyDewLeft:focus { outline: none; }
 
 #basicButtonLilacLeft { background: #d8b2d8; margin: 10px 20px; }
 #basicButtonLilacLeft:hover { background: #c790c7; transition: all 0.3s ease; }
 #basicButtonLilacLeft:active { background: #ad5dad; }
+#basicButtonLilacLeft:focus { outline: none; }
 
 #basicButtonLilacLeft { background: #d8b2d8; margin: 10px 20px; }
 #basicButtonLilacLeft:hover { background: #c790c7; transition: all 0.3s ease; }
 #basicButtonLilacLeft:active { background: #ad5dad; }
+#basicButtonLilacLeft:focus { outline: none; }
 
 #basicButtonTealLeft { background: #9bdddd; margin: 10px 20px; }
 #basicButtonTealLeft:hover { background: #75d0d0; transition: all 0.3s ease; }
 #basicButtonTealLeft:active { background: #3fb9b9; }
+#basicButtonTealLeft:focus { outline: none; }
 
 #basicButtonCocoaLeft { background: #c9b2b4; margin: 10px 20px; }
 #basicButtonCocoaLeft:hover { background: #b49497; transition: all 0.3s ease; }
 #basicButtonCocoaLeft:active { background: #94686c; }
+#basicButtonCocoaLeft:focus { outline: none; }
 
 #basicButtonGrassLeft { background: #7fc3a1; margin: 10px 20px; }
 #basicButtonGrassLeft:hover { background: #5cb388; transition: all 0.3s ease; }
 #basicButtonGrassLeft:active { background: #3e8461; }
+#basicButtonGrassLeft:focus { outline: none; }
 
 #basicButtonTangerineLeft { background: #ffa584; margin: 10px 20px; }
 #basicButtonTangerineLeft:hover { background: #ff8051; transition: all 0.3s ease; }
 #basicButtonTangerineLeft:active { background: #ff4805; }
+#basicButtonTangerineLeft:focus { outline: none; }
 
 #basicButtonRobinRight, #basicButtonStrawberryRight, #basicButtonAvocadoRight, #basicButtonHoneyDewRight, #basicButtonLilacRight, #basicButtonTealRight, #basicButtonCocoaRight, #basicButtonGrassRight, #basicButtonTangerineRight { background: #d2d2d2; padding: 10px 30px; color: #232323; letter-spacing: 1.5px; font-family: arial; font-weight: 700; text-decoration: none; font-size: 18px; -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3; border-radius: 50px 15px; margin: 0 auto; cursor: crosshair; }
 
 #basicButtonRobinRight { background: #94d2ff; margin: 10px 20px; }
 #basicButtonRobinRight:hover { background: #61bdff; transition: all 0.3s ease; }
 #basicButtonRobinRight:active { background: #159cff; }
+#basicButtonRobinRight:focus { outline: none; }
 
 #basicButtonStrawberryRight { background: #fc7a66; margin: 10px 20px; }
 #basicButtonStrawberryRight:hover { background: #fb4f34; transition: all 0.3s ease; }
 #basicButtonStrawberryRight:active { background: #de2104; }
+#basicButtonStrawberryRight:focus { outline: none; }
 
 #basicButtonAvocadoRight { background: #bada55; margin: 10px 20px; }
 #basicButtonAvocadoRight:hover { background: #a8cf2d; transition: all 0.3s ease; }
 #basicButtonAvocadoRight:active { background: #75901f; }
+#basicButtonAvocadoRight:focus { outline: none; }
 
 #basicButtonHoneyDewRight { background: #fef88c; margin: 10px 20px; }
 #basicButtonHoneyDewRight:hover { background: #fef559; transition: all 0.3s ease; }
 #basicButtonHoneyDewRight:active { background: #fdf00e; }
+#basicButtonHoneyDewRight:focus { outline: none; }
 
 #basicButtonLilacRight { background: #d8b2d8; margin: 10px 20px; }
 #basicButtonLilacRight:hover { background: #c790c7; transition: all 0.3s ease; }
 #basicButtonLilacRight:active { background: #ad5dad; }
+#basicButtonLilacRight:focus { outline: none; }
 
 #basicButtonLilacRight { background: #d8b2d8; margin: 10px 20px; }
 #basicButtonLilacRight:hover { background: #c790c7; transition: all 0.3s ease; }
 #basicButtonLilacRight:active { background: #ad5dad; }
+#basicButtonLilacRight:focus { outline: none; }
 
 #basicButtonTealRight { background: #9bdddd; margin: 10px 20px; }
 #basicButtonTealRight:hover { background: #75d0d0; transition: all 0.3s ease; }
 #basicButtonTealRight:active { background: #3fb9b9; }
+#basicButtonTealRight:focus { outline: none; }
 
 #basicButtonCocoaRight { background: #c9b2b4; margin: 10px 20px; }
 #basicButtonCocoaRight:hover { background: #b49497; transition: all 0.3s ease; }
 #basicButtonCocoaRight:active { background: #94686c; }
+#basicButtonCocoaRight:focus { outline: none; }
 
 #basicButtonGrassRight { background: #7fc3a1; margin: 10px 20px; }
 #basicButtonGrassRight:hover { background: #5cb388; transition: all 0.3s ease; }
 #basicButtonGrassRight:active { background: #3e8461; }
+#basicButtonGrassRight:focus { outline: none; }
 
 #basicButtonTangerineRight { background: #ffa584; margin: 10px 20px; }
 #basicButtonTangerineRight:hover { background: #ff8051; transition: all 0.3s ease; }
 #basicButtonTangerineRight:active { background: #ff4805; }
+#basicButtonTangerineRight:focus { outline: none; }
 
-.gradient-button.color-blue { background-image: linear-gradient(to left, #25aae1, #4481eb, #04befe, #3f86ed); padding: 10px 30px; color: #232323; letter-spacing: 1.5px; font-family: arial; font-weight: 700; text-decoration: none; font-size: 18px; border-radius: 50px 15px; margin: 0 auto; cursor: crosshair; -moz-transition: all .5 ease-in-out; -o-transition: all .5s ease-in-out; -webkit-transition: all .5 ease-in-out; transition: all .5s ease-in-out; box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75); }
+.gradient-button.color-blue { background-image: linear-gradient(to left, #12CBC4, #1289A7, #0652DD, #0652DD); padding: 10px 30px; color: #ffffff; letter-spacing: 1.5px; font-family: arial; font-weight: 600; text-decoration: none; font-size: 18px; border-radius: 30px; margin: 0 auto; cursor: pointer; -moz-transition: all .5 ease-in-out; -o-transition: all .5s ease-in-out; -webkit-transition: all .5 ease-in-out; transition: all .5s ease-in-out; box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75); }
 .gradient-button.color-blue:hover { background-position: 100% 0; -moz-transition: all .5 ease-in-out; -o-transition: all .5 ease-in-out; -webkit-transition: all .5 ease-in-out; transition: all .5 ease-in-out; }
-
-/* 
-// Gradient button and its properties
-%gradient-button { background: #d2d2d2; padding: 10px 30px; color: #232323; letter-spacing: 1.5px; font-family: $ff; font-weight: 700; text-decoration: none; font-size: 18px; border-radius: 50px 15px; margin: 0 auto; cursor: crosshair; -moz-transition: all .5 ease-in-out; -o-transition: all .5s ease-in-out; -webkit-transition: all .5 ease-in-out; transition: all .5s ease-in-out;
-}
-
-%gradient-button:hover { background-position: 100% 0; -moz-transition: all .5 ease-in-out; -o-transition: all .5 ease-in-out; -webkit-transition: all .5 ease-in-out; transition: all .5 ease-in-out;
-}
-
-%gradient-button:focus { outline: none;
-}
-
-.gradient-button.color-blue { @extend %gradient-button; margin: 10px 20px; background-image: linear-gradient(to left, #25aae1, #4481eb, #04befe, #3f86ed); box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
-} */
+.gradient-button.color-blue:focus { outline: none; }
