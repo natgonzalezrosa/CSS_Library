@@ -174,11 +174,11 @@
     background-image: linear-gradient(to left, $bg1, $bg2, $bg3, $bg4);
     padding: 10px 30px;
     color: #ffffff;
-    letter-spacing: 1.5px;
-    font-family: $ff;
-    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: $ff3;
+    font-weight: 500;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     border-radius: 30px;
     margin: 0 auto;
     cursor: pointer;
@@ -197,6 +197,14 @@
 
 .gradient-button.color-blue {
     @include gradient-bg(#12CBC4, #1289A7, #0652DD, #1B1464);
+    @include transform(rotate(0deg));
+    &:hover {
+        @include transform(rotate(180deg));
+    }
+}
+
+.gradient-button.color-red {
+    @include gradient-bg(#FFC312, #F79F1F, #EE5A24, #EA2027);
     @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
