@@ -170,8 +170,6 @@
     margin: 10px 20px;
 }
 
-
-
 @mixin gradient-bg($bg1, $bg2, $bg3, $bg4) {
     background-image: linear-gradient(to left, $bg1, $bg2, $bg3, $bg4);
     padding: 10px 30px;
@@ -184,23 +182,23 @@
     border-radius: 30px;
     margin: 0 auto;
     cursor: pointer;
-    -moz-transition: all .5 ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    -webkit-transition: all .5 ease-in-out;
-    transition: all .5s ease-in-out;
     box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
-    &:hover {
-        background-position: 100% 0;
-        -moz-transition: all .5 ease-in-out;
-        -o-transition: all .5 ease-in-out;
-        -webkit-transition: all .5 ease-in-out;
-        transition: all .5 ease-in-out;
-    }
     &:focus {
         outline: none;
     }
 }
 
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+  }
+  
+
 .gradient-button.color-blue {
-    @include gradient-bg(#12CBC4, #1289A7, #0652DD, #0652DD)
+    @include gradient-bg(#12CBC4, #1289A7, #0652DD, #1B1464);
+    @include transform(rotate(0deg));
+    &:hover {
+        @include transform(rotate(180deg));
+    }
 }

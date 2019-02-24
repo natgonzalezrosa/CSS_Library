@@ -110,6 +110,6 @@ main { margin-top: 50px; margin: 0 auto; width: 600px; }
 #basicButtonTangerineRight:active { background: #ff4805; }
 #basicButtonTangerineRight:focus { outline: none; }
 
-.gradient-button.color-blue { background-image: linear-gradient(to left, #12CBC4, #1289A7, #0652DD, #0652DD); padding: 10px 30px; color: #ffffff; letter-spacing: 1.5px; font-family: arial; font-weight: 600; text-decoration: none; font-size: 18px; border-radius: 30px; margin: 0 auto; cursor: pointer; -moz-transition: all .5 ease-in-out; -o-transition: all .5s ease-in-out; -webkit-transition: all .5 ease-in-out; transition: all .5s ease-in-out; box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75); }
-.gradient-button.color-blue:hover { background-position: 100% 0; -moz-transition: all .5 ease-in-out; -o-transition: all .5 ease-in-out; -webkit-transition: all .5 ease-in-out; transition: all .5 ease-in-out; }
+.gradient-button.color-blue { background-image: linear-gradient(to left, #12CBC4, #1289A7, #0652DD, #1B1464); padding: 10px 30px; color: #ffffff; letter-spacing: 1.5px; font-family: arial; font-weight: 600; text-decoration: none; font-size: 18px; border-radius: 30px; margin: 0 auto; cursor: pointer; box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); }
 .gradient-button.color-blue:focus { outline: none; }
+.gradient-button.color-blue:hover { -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); }
