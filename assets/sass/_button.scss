@@ -239,3 +239,39 @@
     }
     margin: 10px 20px;
 }
+
+.gradient-button.color-blue2 {
+    @include gradient-bg(#82ccdd, #60a3bc, #3c6382, #0a3d62);
+    @include transform(rotate(0deg));
+    &:hover {
+        @include transform(rotate(180deg));
+    }
+    margin: 10px 20px;
+}
+
+.gradient-button.color-red2 {
+    @include gradient-bg(#f8c291, #e55039, #eb2f06, #b71540);
+    @include transform(rotate(0deg));
+    &:hover {
+        @include transform(rotate(180deg));
+    }
+    margin: 10px 20px;
+}
+
+.gradient-button.color-yellow {
+    @include gradient-bg(#fad390, #f6b93b, #fa983a, #e58e26);
+    @include transform(rotate(0deg));
+    &:hover {
+        @include transform(rotate(180deg));
+    }
+    margin: 10px 20px;
+}
+
+.gradient-button.color-green2 {
+    @include gradient-bg(#b8e994, #78e08f, #38ada9, #079992);
+    @include transform(rotate(0deg));
+    &:hover {
+        @include transform(rotate(180deg));
+    }
+    margin: 10px 20px;
+}
