@@ -110,10 +110,22 @@ main { margin-top: 50px; margin: 0 auto; width: 600px; }
 #basicButtonTangerineRight:active { background: #ff4805; }
 #basicButtonTangerineRight:focus { outline: none; }
 
-.gradient-button.color-blue { background-image: linear-gradient(to left, #12CBC4, #1289A7, #0652DD, #1B1464); padding: 10px 30px; color: #ffffff; letter-spacing: 1.2px; font-family: "Comfortaa", cursive; font-weight: 500; text-decoration: none; font-size: 14px; border-radius: 30px; margin: 0 auto; cursor: pointer; box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); }
+.gradient-button.color-blue { background-image: linear-gradient(to left, #12CBC4, #1289A7, #0652DD, #1B1464); padding: 10px 30px; color: #ffffff; letter-spacing: 1.2px; font-family: "Comfortaa", cursive; font-weight: 500; text-decoration: none; font-size: 14px; border-radius: 30px; margin: 0 auto; cursor: pointer; box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); margin: 10px 20px; }
 .gradient-button.color-blue:focus { outline: none; }
 .gradient-button.color-blue:hover { -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); }
 
-.gradient-button.color-red { background-image: linear-gradient(to left, #FFC312, #F79F1F, #EE5A24, #EA2027); padding: 10px 30px; color: #ffffff; letter-spacing: 1.2px; font-family: "Comfortaa", cursive; font-weight: 500; text-decoration: none; font-size: 14px; border-radius: 30px; margin: 0 auto; cursor: pointer; box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); }
+.gradient-button.color-red { background-image: linear-gradient(to left, #FFC312, #F79F1F, #EE5A24, #EA2027); padding: 10px 30px; color: #ffffff; letter-spacing: 1.2px; font-family: "Comfortaa", cursive; font-weight: 500; text-decoration: none; font-size: 14px; border-radius: 30px; margin: 0 auto; cursor: pointer; box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); margin: 10px 20px; }
 .gradient-button.color-red:focus { outline: none; }
 .gradient-button.color-red:hover { -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); }
+
+.gradient-button.color-purple { background-image: linear-gradient(to left, #FDA7DF, #D980FA, #9980FA, #5758BB); padding: 10px 30px; color: #ffffff; letter-spacing: 1.2px; font-family: "Comfortaa", cursive; font-weight: 500; text-decoration: none; font-size: 14px; border-radius: 30px; margin: 0 auto; cursor: pointer; box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); margin: 10px 20px; }
+.gradient-button.color-purple:focus { outline: none; }
+.gradient-button.color-purple:hover { -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); }
+
+.gradient-button.color-green { background-image: linear-gradient(to left, #C4E538, #A3CB38, #009432, #006266); padding: 10px 30px; color: #ffffff; letter-spacing: 1.2px; font-family: "Comfortaa", cursive; font-weight: 500; text-decoration: none; font-size: 14px; border-radius: 30px; margin: 0 auto; cursor: pointer; box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); margin: 10px 20px; }
+.gradient-button.color-green:focus { outline: none; }
+.gradient-button.color-green:hover { -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); }
+
+.gradient-button.color-pink { background-image: linear-gradient(to left, #ED4C67, #B53471, #833471, #833471); padding: 10px 30px; color: #ffffff; letter-spacing: 1.2px; font-family: "Comfortaa", cursive; font-weight: 500; text-decoration: none; font-size: 14px; border-radius: 30px; margin: 0 auto; cursor: pointer; box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); margin: 10px 20px; }
+.gradient-button.color-pink:focus { outline: none; }
+.gradient-button.color-pink:hover { -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); }

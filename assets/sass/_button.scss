@@ -201,6 +201,7 @@
     &:hover {
         @include transform(rotate(180deg));
     }
+    margin: 10px 20px;
 }
 
 .gradient-button.color-red {
@@ -209,4 +210,32 @@
     &:hover {
         @include transform(rotate(180deg));
     }
+    margin: 10px 20px;
+}
+
+.gradient-button.color-purple {
+    @include gradient-bg(#FDA7DF, #D980FA, #9980FA, #5758BB);
+    @include transform(rotate(0deg));
+    &:hover {
+        @include transform(rotate(180deg));
+    }
+    margin: 10px 20px;
+}
+
+.gradient-button.color-green {
+    @include gradient-bg(#C4E538, #A3CB38, #009432, #006266);
+    @include transform(rotate(0deg));
+    &:hover {
+        @include transform(rotate(180deg));
+    }
+    margin: 10px 20px;
+}
+
+.gradient-button.color-pink {
+    @include gradient-bg(#ED4C67, #B53471, #833471, #833471);
+    @include transform(rotate(0deg));
+    &:hover {
+        @include transform(rotate(180deg));
+    }
+    margin: 10px 20px;
 }
