@@ -1,0 +1,78 @@
+// Basic button style CSS selector and its properties (for right tilt)
+%basic-button-right {
+    background: #d2d2d2;
+    padding: 10px 30px;
+    color: #232323;
+    letter-spacing: 1.5px;
+    font-family: $ff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+    -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
+    -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
+    box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
+    border-radius: 50px 15px;
+    margin: 0 auto;
+    cursor: crosshair;
+}
+
+// Basic Button Colors with Right Tilt
+#basicButtonRobinRight {
+    @include button-bg(#94d2ff);
+    @extend %basic-button-right;
+    margin: 10px 20px;
+}
+
+#basicButtonStrawberryRight {
+    @include button-bg(#fc7a66);
+    @extend %basic-button-right;
+    margin: 10px 20px;
+}
+
+#basicButtonAvocadoRight {
+    @include button-bg(#bada55);
+    @extend %basic-button-right;
+    margin: 10px 20px;
+}
+
+#basicButtonHoneyDewRight {
+    @include button-bg(#fef88c);
+    @extend %basic-button-right;
+    margin: 10px 20px;
+}
+
+#basicButtonLilacRight {
+    @include button-bg(#d8b2d8);
+    @extend %basic-button-right;
+    margin: 10px 20px;
+}
+
+#basicButtonLilacRight {
+    @include button-bg(#d8b2d8);
+    @extend %basic-button-right;
+    margin: 10px 20px;
+}
+
+#basicButtonTealRight {
+    @include button-bg(#9bdddd);
+    @extend %basic-button-right;
+    margin: 10px 20px;
+}
+
+#basicButtonCocoaRight {
+    @include button-bg(#c9b2b4);
+    @extend %basic-button-right;
+    margin: 10px 20px;
+}
+
+#basicButtonGrassRight {
+    @include button-bg(#7fc3a1);
+    @extend %basic-button-right;
+    margin: 10px 20px;
+}
+
+#basicButtonTangerineRight {
+    @include button-bg(#ffa584);
+    @extend %basic-button-right;
+    margin: 10px 20px;
+}
