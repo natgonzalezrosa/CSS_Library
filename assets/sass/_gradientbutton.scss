@@ -1,6 +1,8 @@
 // Gradient Button (upside down)
 .gradient-button.color-blue {
     @include gradient-bg(#12CBC4, #1289A7, #0652DD, #1B1464);
+    -webkit-transition: -webkit-transform 1.5s; /* Safari */
+    transition: transform 1.5s;
     @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
@@ -10,6 +12,8 @@
 
 .gradient-button.color-red {
     @include gradient-bg(#FFC312, #F79F1F, #EE5A24, #EA2027);
+    -webkit-transition: -webkit-transform 1.5s; /* Safari */
+    transition: transform 1.5s;
     @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
@@ -19,6 +23,8 @@
 
 .gradient-button.color-purple {
     @include gradient-bg(#FDA7DF, #D980FA, #9980FA, #5758BB);
+    -webkit-transition: -webkit-transform 1.5s; /* Safari */
+    transition: transform 1.5s;
     @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
@@ -28,6 +34,8 @@
 
 .gradient-button.color-green {
     @include gradient-bg(#C4E538, #A3CB38, #009432, #006266);
+    -webkit-transition: -webkit-transform 1.5s; /* Safari */
+    transition: transform 1.5s;
     @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
@@ -37,6 +45,8 @@
 
 .gradient-button.color-pink {
     @include gradient-bg(#ED4C67, #B53471, #833471, #833471);
+    -webkit-transition: -webkit-transform 1.5s; /* Safari */
+    transition: transform 1.5s;
     @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
@@ -46,6 +56,8 @@
 
 .gradient-button.color-blue2 {
     @include gradient-bg(#82ccdd, #60a3bc, #3c6382, #0a3d62);
+    -webkit-transition: -webkit-transform 1.5s; /* Safari */
+    transition: transform 1.5s;
     @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
@@ -55,6 +67,8 @@
 
 .gradient-button.color-red2 {
     @include gradient-bg(#f8c291, #e55039, #eb2f06, #b71540);
+    -webkit-transition: -webkit-transform 1.5s; /* Safari */
+    transition: transform 1.5s;
     @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
@@ -64,6 +78,8 @@
 
 .gradient-button.color-yellow {
     @include gradient-bg(#fad390, #f6b93b, #fa983a, #e58e26);
+    -webkit-transition: -webkit-transform 1.5s; /* Safari */
+    transition: transform 1.5s;
     @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
@@ -73,6 +89,8 @@
 
 .gradient-button.color-green2 {
     @include gradient-bg(#b8e994, #78e08f, #38ada9, #079992);
+    -webkit-transition: -webkit-transform 1.5s; /* Safari */
+    transition: transform 1.5s;
     @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));

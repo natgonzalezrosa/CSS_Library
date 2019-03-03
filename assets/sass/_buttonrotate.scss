@@ -1,0 +1,11 @@
+// Gradient Colors (with Rotating Animation)
+.rotate-button.color-blue {
+    @include gradient-bg(#12CBC4, #1289A7, #0652DD, #1B1464);
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+    &:hover {
+        @include gradient-bg(red, brown, orange, yellow);
+        @include transform(rotate(360deg)); 
+    }
+    margin: 10px 20px;
+}
