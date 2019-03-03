@@ -889,16 +889,22 @@ main {
   margin: 0 auto;
   cursor: crosshair;
   box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
-  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  -webkit-transition: -webkit-transform 2s;
   /* Safari */
-  transition: width 2s, height 2s, transform 2s;
+  transition: transform 2s;
   margin: 10px 20px;
 }
 .rotate-button.color-blue:focus {
   outline: none;
 }
 .rotate-button.color-blue:hover {
-  background-image: linear-gradient(to left, red, brown, orange, yellow);
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.rotate-button.color-red {
+  background-image: linear-gradient(to left, #FFC312, #F79F1F, #EE5A24, #EA2027);
   padding: 10px 30px;
   color: #ffffff;
   letter-spacing: 1.2px;
@@ -910,12 +916,21 @@ main {
   margin: 0 auto;
   cursor: crosshair;
   box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 2s;
+  /* Safari */
+  transition: transform 2s;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  margin: 10px 20px;
+}
+.rotate-button.color-red:focus {
+  outline: none;
+}
+.rotate-button.color-red:hover {
   -webkit-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
-}
-.rotate-button.color-blue:hover:focus {
-  outline: none;
 }
 
 /*# sourceMappingURL=style.css.map */
