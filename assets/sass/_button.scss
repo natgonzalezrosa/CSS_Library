@@ -32,6 +32,23 @@
     }
 }
 
+// Basic button style CSS selector and its properties (for left tilt)
+%basic-button {
+    padding: 10px 30px;
+    color: #232323;
+    letter-spacing: 1.5px;
+    font-family: $ff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+    -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
+    -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
+    box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
+    border-radius: 30px;
+    margin: 0 auto;
+    cursor: crosshair;
+}
+
 // Transform property mixin
 @mixin transform($property) {
     -webkit-transform: $property;

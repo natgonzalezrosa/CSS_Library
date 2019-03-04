@@ -29,6 +29,22 @@ main {
   width: 600px;
 }
 
+.change-color.color-robin {
+  padding: 10px 30px;
+  color: #232323;
+  letter-spacing: 1.5px;
+  font-family: arial;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+  -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+}
+
 .left-tilt.color-tangerine, .left-tilt.color-grass, .left-tilt.color-cocoa, .left-tilt.color-teal, .left-tilt.color-lilac, .left-tilt.color-honeydew, .left-tilt.color-avocado, .left-tilt.color-strawberry, .left-tilt.color-robin {
   padding: 10px 30px;
   color: #232323;
@@ -329,6 +345,41 @@ main {
 }
 .right-tilt.color-tangerine:focus {
   outline: none;
+}
+
+.change-color.color-robin {
+  padding: 10px 30px;
+  color: #232323;
+  letter-spacing: 1.5px;
+  font-family: arial;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+  -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+}
+
+.change-color.color-robin {
+  background: #94d2ff;
+  margin: 10px 20px;
+}
+.change-color.color-robin:hover {
+  background: #61bdff;
+  transition: all 0.3s ease;
+}
+.change-color.color-robin:active {
+  background: #159cff;
+}
+.change-color.color-robin:focus {
+  outline: none;
+}
+.change-color.color-robin:hover {
+  background: #fc7a66;
+  transition: background 1.2s ease-out;
 }
 
 .gradient-button.color-blue {
