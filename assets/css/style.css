@@ -30,7 +30,6 @@ main {
 }
 
 #basicButtonTangerineLeft, #basicButtonGrassLeft, #basicButtonCocoaLeft, #basicButtonTealLeft, #basicButtonLilacLeft, #basicButtonHoneyDewLeft, #basicButtonAvocadoLeft, #basicButtonStrawberryLeft, #basicButtonRobinLeft {
-  background: #d2d2d2;
   padding: 10px 30px;
   color: #232323;
   letter-spacing: 1.5px;
@@ -197,7 +196,6 @@ main {
 }
 
 #basicButtonTangerineRight, #basicButtonGrassRight, #basicButtonCocoaRight, #basicButtonTealRight, #basicButtonLilacRight, #basicButtonHoneyDewRight, #basicButtonAvocadoRight, #basicButtonStrawberryRight, #basicButtonRobinRight {
-  background: #d2d2d2;
   padding: 10px 30px;
   color: #232323;
   letter-spacing: 1.5px;
