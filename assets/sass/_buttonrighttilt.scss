@@ -16,61 +16,55 @@
 }
 
 // Basic Button Colors with Right Tilt
-#basicButtonRobinRight {
+.right-tilt.color-robin {
     @include button-bg(#94d2ff);
     @extend %basic-button-right;
     margin: 10px 20px;
 }
 
-#basicButtonStrawberryRight {
+.right-tilt.color-strawberry {
     @include button-bg(#fc7a66);
     @extend %basic-button-right;
     margin: 10px 20px;
 }
 
-#basicButtonAvocadoRight {
+.right-tilt.color-avocado {
     @include button-bg(#bada55);
     @extend %basic-button-right;
     margin: 10px 20px;
 }
 
-#basicButtonHoneyDewRight {
+.right-tilt.color-honeydew {
     @include button-bg(#fef88c);
     @extend %basic-button-right;
     margin: 10px 20px;
 }
 
-#basicButtonLilacRight {
+.right-tilt.color-lilac {
     @include button-bg(#d8b2d8);
     @extend %basic-button-right;
     margin: 10px 20px;
 }
 
-#basicButtonLilacRight {
-    @include button-bg(#d8b2d8);
-    @extend %basic-button-right;
-    margin: 10px 20px;
-}
-
-#basicButtonTealRight {
+.right-tilt.color-teal {
     @include button-bg(#9bdddd);
     @extend %basic-button-right;
     margin: 10px 20px;
 }
 
-#basicButtonCocoaRight {
+.right-tilt.color-cocoa {
     @include button-bg(#c9b2b4);
     @extend %basic-button-right;
     margin: 10px 20px;
 }
 
-#basicButtonGrassRight {
+.right-tilt.color-grass {
     @include button-bg(#7fc3a1);
     @extend %basic-button-right;
     margin: 10px 20px;
 }
 
-#basicButtonTangerineRight {
+.right-tilt.color-tangerine {
     @include button-bg(#ffa584);
     @extend %basic-button-right;
     margin: 10px 20px;

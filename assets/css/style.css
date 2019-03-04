@@ -29,7 +29,7 @@ main {
   width: 600px;
 }
 
-#basicButtonTangerineLeft, #basicButtonGrassLeft, #basicButtonCocoaLeft, #basicButtonTealLeft, #basicButtonLilacLeft, #basicButtonHoneyDewLeft, #basicButtonAvocadoLeft, #basicButtonStrawberryLeft, #basicButtonRobinLeft {
+.left-tilt.color-tangerine, .left-tilt.color-grass, .left-tilt.color-cocoa, .left-tilt.color-teal, .left-tilt.color-lilac, .left-tilt.color-honeydew, .left-tilt.color-avocado, .left-tilt.color-strawberry, .left-tilt.color-robin {
   padding: 10px 30px;
   color: #232323;
   letter-spacing: 1.5px;
@@ -45,157 +45,142 @@ main {
   cursor: crosshair;
 }
 
-#basicButtonRobinLeft {
+.left-tilt.color-robin {
   background: #94d2ff;
   margin: 10px 20px;
 }
-#basicButtonRobinLeft:hover {
+.left-tilt.color-robin:hover {
   background: #61bdff;
   transition: all 0.3s ease;
 }
-#basicButtonRobinLeft:active {
+.left-tilt.color-robin:active {
   background: #159cff;
 }
-#basicButtonRobinLeft:focus {
+.left-tilt.color-robin:focus {
   outline: none;
 }
 
-#basicButtonStrawberryLeft {
+.left-tilt.color-strawberry {
   background: #fc7a66;
   margin: 10px 20px;
 }
-#basicButtonStrawberryLeft:hover {
+.left-tilt.color-strawberry:hover {
   background: #fb4f34;
   transition: all 0.3s ease;
 }
-#basicButtonStrawberryLeft:active {
+.left-tilt.color-strawberry:active {
   background: #de2104;
 }
-#basicButtonStrawberryLeft:focus {
+.left-tilt.color-strawberry:focus {
   outline: none;
 }
 
-#basicButtonAvocadoLeft {
+.left-tilt.color-avocado {
   background: #bada55;
   margin: 10px 20px;
 }
-#basicButtonAvocadoLeft:hover {
+.left-tilt.color-avocado:hover {
   background: #a8cf2d;
   transition: all 0.3s ease;
 }
-#basicButtonAvocadoLeft:active {
+.left-tilt.color-avocado:active {
   background: #75901f;
 }
-#basicButtonAvocadoLeft:focus {
+.left-tilt.color-avocado:focus {
   outline: none;
 }
 
-#basicButtonHoneyDewLeft {
+.left-tilt.color-honeydew {
   background: #fef88c;
   margin: 10px 20px;
 }
-#basicButtonHoneyDewLeft:hover {
+.left-tilt.color-honeydew:hover {
   background: #fef559;
   transition: all 0.3s ease;
 }
-#basicButtonHoneyDewLeft:active {
+.left-tilt.color-honeydew:active {
   background: #fdf00e;
 }
-#basicButtonHoneyDewLeft:focus {
+.left-tilt.color-honeydew:focus {
   outline: none;
 }
 
-#basicButtonLilacLeft {
+.left-tilt.color-lilac {
   background: #d8b2d8;
   margin: 10px 20px;
 }
-#basicButtonLilacLeft:hover {
+.left-tilt.color-lilac:hover {
   background: #c790c7;
   transition: all 0.3s ease;
 }
-#basicButtonLilacLeft:active {
+.left-tilt.color-lilac:active {
   background: #ad5dad;
 }
-#basicButtonLilacLeft:focus {
+.left-tilt.color-lilac:focus {
   outline: none;
 }
 
-#basicButtonLilacLeft {
-  background: #d8b2d8;
-  margin: 10px 20px;
-}
-#basicButtonLilacLeft:hover {
-  background: #c790c7;
-  transition: all 0.3s ease;
-}
-#basicButtonLilacLeft:active {
-  background: #ad5dad;
-}
-#basicButtonLilacLeft:focus {
-  outline: none;
-}
-
-#basicButtonTealLeft {
+.left-tilt.color-teal {
   background: #9bdddd;
   margin: 10px 20px;
 }
-#basicButtonTealLeft:hover {
+.left-tilt.color-teal:hover {
   background: #75d0d0;
   transition: all 0.3s ease;
 }
-#basicButtonTealLeft:active {
+.left-tilt.color-teal:active {
   background: #3fb9b9;
 }
-#basicButtonTealLeft:focus {
+.left-tilt.color-teal:focus {
   outline: none;
 }
 
-#basicButtonCocoaLeft {
+.left-tilt.color-cocoa {
   background: #c9b2b4;
   margin: 10px 20px;
 }
-#basicButtonCocoaLeft:hover {
+.left-tilt.color-cocoa:hover {
   background: #b49497;
   transition: all 0.3s ease;
 }
-#basicButtonCocoaLeft:active {
+.left-tilt.color-cocoa:active {
   background: #94686c;
 }
-#basicButtonCocoaLeft:focus {
+.left-tilt.color-cocoa:focus {
   outline: none;
 }
 
-#basicButtonGrassLeft {
+.left-tilt.color-grass {
   background: #7fc3a1;
   margin: 10px 20px;
 }
-#basicButtonGrassLeft:hover {
+.left-tilt.color-grass:hover {
   background: #5cb388;
   transition: all 0.3s ease;
 }
-#basicButtonGrassLeft:active {
+.left-tilt.color-grass:active {
   background: #3e8461;
 }
-#basicButtonGrassLeft:focus {
+.left-tilt.color-grass:focus {
   outline: none;
 }
 
-#basicButtonTangerineLeft {
+.left-tilt.color-tangerine {
   background: #ffa584;
   margin: 10px 20px;
 }
-#basicButtonTangerineLeft:hover {
+.left-tilt.color-tangerine:hover {
   background: #ff8051;
   transition: all 0.3s ease;
 }
-#basicButtonTangerineLeft:active {
+.left-tilt.color-tangerine:active {
   background: #ff4805;
 }
-#basicButtonTangerineLeft:focus {
+.left-tilt.color-tangerine:focus {
   outline: none;
 }
 
-#basicButtonTangerineRight, #basicButtonGrassRight, #basicButtonCocoaRight, #basicButtonTealRight, #basicButtonLilacRight, #basicButtonHoneyDewRight, #basicButtonAvocadoRight, #basicButtonStrawberryRight, #basicButtonRobinRight {
+.right-tilt.color-tangerine, .right-tilt.color-grass, .right-tilt.color-cocoa, .right-tilt.color-teal, .right-tilt.color-lilac, .right-tilt.color-honeydew, .right-tilt.color-avocado, .right-tilt.color-strawberry, .right-tilt.color-robin {
   padding: 10px 30px;
   color: #232323;
   letter-spacing: 1.5px;
@@ -211,153 +196,138 @@ main {
   cursor: crosshair;
 }
 
-#basicButtonRobinRight {
+.right-tilt.color-robin {
   background: #94d2ff;
   margin: 10px 20px;
 }
-#basicButtonRobinRight:hover {
+.right-tilt.color-robin:hover {
   background: #61bdff;
   transition: all 0.3s ease;
 }
-#basicButtonRobinRight:active {
+.right-tilt.color-robin:active {
   background: #159cff;
 }
-#basicButtonRobinRight:focus {
+.right-tilt.color-robin:focus {
   outline: none;
 }
 
-#basicButtonStrawberryRight {
+.right-tilt.color-strawberry {
   background: #fc7a66;
   margin: 10px 20px;
 }
-#basicButtonStrawberryRight:hover {
+.right-tilt.color-strawberry:hover {
   background: #fb4f34;
   transition: all 0.3s ease;
 }
-#basicButtonStrawberryRight:active {
+.right-tilt.color-strawberry:active {
   background: #de2104;
 }
-#basicButtonStrawberryRight:focus {
+.right-tilt.color-strawberry:focus {
   outline: none;
 }
 
-#basicButtonAvocadoRight {
+.right-tilt.color-avocado {
   background: #bada55;
   margin: 10px 20px;
 }
-#basicButtonAvocadoRight:hover {
+.right-tilt.color-avocado:hover {
   background: #a8cf2d;
   transition: all 0.3s ease;
 }
-#basicButtonAvocadoRight:active {
+.right-tilt.color-avocado:active {
   background: #75901f;
 }
-#basicButtonAvocadoRight:focus {
+.right-tilt.color-avocado:focus {
   outline: none;
 }
 
-#basicButtonHoneyDewRight {
+.right-tilt.color-honeydew {
   background: #fef88c;
   margin: 10px 20px;
 }
-#basicButtonHoneyDewRight:hover {
+.right-tilt.color-honeydew:hover {
   background: #fef559;
   transition: all 0.3s ease;
 }
-#basicButtonHoneyDewRight:active {
+.right-tilt.color-honeydew:active {
   background: #fdf00e;
 }
-#basicButtonHoneyDewRight:focus {
+.right-tilt.color-honeydew:focus {
   outline: none;
 }
 
-#basicButtonLilacRight {
+.right-tilt.color-lilac {
   background: #d8b2d8;
   margin: 10px 20px;
 }
-#basicButtonLilacRight:hover {
+.right-tilt.color-lilac:hover {
   background: #c790c7;
   transition: all 0.3s ease;
 }
-#basicButtonLilacRight:active {
+.right-tilt.color-lilac:active {
   background: #ad5dad;
 }
-#basicButtonLilacRight:focus {
+.right-tilt.color-lilac:focus {
   outline: none;
 }
 
-#basicButtonLilacRight {
-  background: #d8b2d8;
-  margin: 10px 20px;
-}
-#basicButtonLilacRight:hover {
-  background: #c790c7;
-  transition: all 0.3s ease;
-}
-#basicButtonLilacRight:active {
-  background: #ad5dad;
-}
-#basicButtonLilacRight:focus {
-  outline: none;
-}
-
-#basicButtonTealRight {
+.right-tilt.color-teal {
   background: #9bdddd;
   margin: 10px 20px;
 }
-#basicButtonTealRight:hover {
+.right-tilt.color-teal:hover {
   background: #75d0d0;
   transition: all 0.3s ease;
 }
-#basicButtonTealRight:active {
+.right-tilt.color-teal:active {
   background: #3fb9b9;
 }
-#basicButtonTealRight:focus {
+.right-tilt.color-teal:focus {
   outline: none;
 }
 
-#basicButtonCocoaRight {
+.right-tilt.color-cocoa {
   background: #c9b2b4;
   margin: 10px 20px;
 }
-#basicButtonCocoaRight:hover {
+.right-tilt.color-cocoa:hover {
   background: #b49497;
   transition: all 0.3s ease;
 }
-#basicButtonCocoaRight:active {
+.right-tilt.color-cocoa:active {
   background: #94686c;
 }
-#basicButtonCocoaRight:focus {
+.right-tilt.color-cocoa:focus {
   outline: none;
 }
 
-#basicButtonGrassRight {
+.right-tilt.color-grass {
   background: #7fc3a1;
   margin: 10px 20px;
 }
-#basicButtonGrassRight:hover {
+.right-tilt.color-grass:hover {
   background: #5cb388;
   transition: all 0.3s ease;
 }
-#basicButtonGrassRight:active {
+.right-tilt.color-grass:active {
   background: #3e8461;
 }
-#basicButtonGrassRight:focus {
+.right-tilt.color-grass:focus {
   outline: none;
 }
 
-#basicButtonTangerineRight {
+.right-tilt.color-tangerine {
   background: #ffa584;
   margin: 10px 20px;
 }
-#basicButtonTangerineRight:hover {
+.right-tilt.color-tangerine:hover {
   background: #ff8051;
   transition: all 0.3s ease;
 }
-#basicButtonTangerineRight:active {
+.right-tilt.color-tangerine:active {
   background: #ff4805;
 }
-#basicButtonTangerineRight:focus {
+.right-tilt.color-tangerine:focus {
   outline: none;
 }
 
