@@ -29,7 +29,7 @@ main {
   width: 600px;
 }
 
-.change-color.color-lilac, .change-color.color-honeydew, .change-color.color-avocado, .change-color.color-strawberry, .change-color.color-robin {
+.change-color.color-tangerine, .change-color.color-grass, .change-color.color-cocoa, .change-color.color-teal, .change-color.color-lilac, .change-color.color-honeydew, .change-color.color-avocado, .change-color.color-strawberry, .change-color.color-robin {
   padding: 10px 30px;
   color: #232323;
   letter-spacing: 1.5px;
@@ -347,7 +347,7 @@ main {
   outline: none;
 }
 
-.change-color.color-lilac, .change-color.color-honeydew, .change-color.color-avocado, .change-color.color-strawberry, .change-color.color-robin {
+.change-color.color-tangerine, .change-color.color-grass, .change-color.color-cocoa, .change-color.color-teal, .change-color.color-lilac, .change-color.color-honeydew, .change-color.color-avocado, .change-color.color-strawberry, .change-color.color-robin {
   padding: 10px 30px;
   color: #232323;
   letter-spacing: 1.5px;
@@ -416,7 +416,7 @@ main {
   outline: none;
 }
 .change-color.color-avocado:hover {
-  background: #7fc3a1;
+  background: #fef88c;
   transition: background 1.2s ease-out;
 }
 
@@ -455,6 +455,82 @@ main {
 }
 .change-color.color-lilac:hover {
   background: #fef88c;
+  transition: background 1.2s ease-out;
+}
+
+.change-color.color-teal {
+  background: #9bdddd;
+  margin: 10px 20px;
+}
+.change-color.color-teal:hover {
+  background: #75d0d0;
+  transition: all 0.3s ease;
+}
+.change-color.color-teal:active {
+  background: #3fb9b9;
+}
+.change-color.color-teal:focus {
+  outline: none;
+}
+.change-color.color-teal:hover {
+  background: #c9b2b4;
+  transition: background 1.2s ease-out;
+}
+
+.change-color.color-cocoa {
+  background: #c9b2b4;
+  margin: 10px 20px;
+}
+.change-color.color-cocoa:hover {
+  background: #b49497;
+  transition: all 0.3s ease;
+}
+.change-color.color-cocoa:active {
+  background: #94686c;
+}
+.change-color.color-cocoa:focus {
+  outline: none;
+}
+.change-color.color-cocoa:hover {
+  background: #7fc3a1;
+  transition: background 1.2s ease-out;
+}
+
+.change-color.color-grass {
+  background: #7fc3a1;
+  margin: 10px 20px;
+}
+.change-color.color-grass:hover {
+  background: #5cb388;
+  transition: all 0.3s ease;
+}
+.change-color.color-grass:active {
+  background: #3e8461;
+}
+.change-color.color-grass:focus {
+  outline: none;
+}
+.change-color.color-grass:hover {
+  background: #ffa584;
+  transition: background 1.2s ease-out;
+}
+
+.change-color.color-tangerine {
+  background: #ffa584;
+  margin: 10px 20px;
+}
+.change-color.color-tangerine:hover {
+  background: #ff8051;
+  transition: all 0.3s ease;
+}
+.change-color.color-tangerine:active {
+  background: #ff4805;
+}
+.change-color.color-tangerine:focus {
+  outline: none;
+}
+.change-color.color-tangerine:hover {
+  background: #94d2ff;
   transition: background 1.2s ease-out;
 }
 

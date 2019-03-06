@@ -41,7 +41,7 @@
     @extend %basic-button;
     margin: 10px 20px;
     &:hover {
-        background: #7fc3a1;
+        background: #fef88c;
         transition: background 1.2s ease-out;
     }
 }
@@ -66,3 +66,42 @@
     }
 }
 
+.change-color.color-teal {
+    @include button-bg(#9bdddd);
+    @extend %basic-button;
+    margin: 10px 20px;
+    &:hover {
+        background: #c9b2b4;
+        transition: background 1.2s ease-out;
+    }
+}
+
+.change-color.color-cocoa {
+    @include button-bg(#c9b2b4);
+    @extend %basic-button;
+    margin: 10px 20px;
+    &:hover {
+        background: #7fc3a1;
+        transition: background 1.2s ease-out;
+    }
+}
+
+.change-color.color-grass {
+    @include button-bg(#7fc3a1);
+    @extend %basic-button;
+    margin: 10px 20px;
+    &:hover {
+        background: #ffa584;
+        transition: background 1.2s ease-out;
+    }
+}
+
+.change-color.color-tangerine {
+    @include button-bg(#ffa584);
+    @extend %basic-button;
+    margin: 10px 20px;
+    &:hover {
+        background: #94d2ff;
+        transition: background 1.2s ease-out;
+    }
+}
