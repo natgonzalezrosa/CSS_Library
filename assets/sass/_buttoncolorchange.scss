@@ -36,4 +36,33 @@
     }
 }
 
+.change-color.color-avocado {
+    @include button-bg(#bada55);
+    @extend %basic-button;
+    margin: 10px 20px;
+    &:hover {
+        background: #7fc3a1;
+        transition: background 1.2s ease-out;
+    }
+}
+
+.change-color.color-honeydew {
+    @include button-bg(#fef88c);
+    @extend %basic-button;
+    margin: 10px 20px;
+    &:hover {
+        background: #d8b2d8;
+        transition: background 1.2s ease-out;
+    }
+}
+
+.change-color.color-lilac {
+    @include button-bg(#d8b2d8);
+    @extend %basic-button;
+    margin: 10px 20px;
+    &:hover {
+        background: #fef88c;
+        transition: background 1.2s ease-out;
+    }
+}
 

@@ -29,7 +29,7 @@ main {
   width: 600px;
 }
 
-.change-color.color-strawberry, .change-color.color-robin {
+.change-color.color-lilac, .change-color.color-honeydew, .change-color.color-avocado, .change-color.color-strawberry, .change-color.color-robin {
   padding: 10px 30px;
   color: #232323;
   letter-spacing: 1.5px;
@@ -347,7 +347,7 @@ main {
   outline: none;
 }
 
-.change-color.color-strawberry, .change-color.color-robin {
+.change-color.color-lilac, .change-color.color-honeydew, .change-color.color-avocado, .change-color.color-strawberry, .change-color.color-robin {
   padding: 10px 30px;
   color: #232323;
   letter-spacing: 1.5px;
@@ -398,6 +398,63 @@ main {
 }
 .change-color.color-strawberry:hover {
   background: #bada55;
+  transition: background 1.2s ease-out;
+}
+
+.change-color.color-avocado {
+  background: #bada55;
+  margin: 10px 20px;
+}
+.change-color.color-avocado:hover {
+  background: #a8cf2d;
+  transition: all 0.3s ease;
+}
+.change-color.color-avocado:active {
+  background: #75901f;
+}
+.change-color.color-avocado:focus {
+  outline: none;
+}
+.change-color.color-avocado:hover {
+  background: #7fc3a1;
+  transition: background 1.2s ease-out;
+}
+
+.change-color.color-honeydew {
+  background: #fef88c;
+  margin: 10px 20px;
+}
+.change-color.color-honeydew:hover {
+  background: #fef559;
+  transition: all 0.3s ease;
+}
+.change-color.color-honeydew:active {
+  background: #fdf00e;
+}
+.change-color.color-honeydew:focus {
+  outline: none;
+}
+.change-color.color-honeydew:hover {
+  background: #d8b2d8;
+  transition: background 1.2s ease-out;
+}
+
+.change-color.color-lilac {
+  background: #d8b2d8;
+  margin: 10px 20px;
+}
+.change-color.color-lilac:hover {
+  background: #c790c7;
+  transition: all 0.3s ease;
+}
+.change-color.color-lilac:active {
+  background: #ad5dad;
+}
+.change-color.color-lilac:focus {
+  outline: none;
+}
+.change-color.color-lilac:hover {
+  background: #fef88c;
   transition: background 1.2s ease-out;
 }
 
