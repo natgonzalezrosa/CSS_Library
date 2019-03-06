@@ -26,4 +26,14 @@
     }
 }
 
+.change-color.color-strawberry {
+    @include button-bg(#fc7a66);
+    @extend %basic-button;
+    margin: 10px 20px;
+    &:hover {
+        background: #bada55;
+        transition: background 1.2s ease-out;
+    }
+}
+
 

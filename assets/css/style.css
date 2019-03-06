@@ -29,7 +29,7 @@ main {
   width: 600px;
 }
 
-.change-color.color-robin {
+.change-color.color-strawberry, .change-color.color-robin {
   padding: 10px 30px;
   color: #232323;
   letter-spacing: 1.5px;
@@ -347,7 +347,7 @@ main {
   outline: none;
 }
 
-.change-color.color-robin {
+.change-color.color-strawberry, .change-color.color-robin {
   padding: 10px 30px;
   color: #232323;
   letter-spacing: 1.5px;
@@ -379,6 +379,25 @@ main {
 }
 .change-color.color-robin:hover {
   background: #fc7a66;
+  transition: background 1.2s ease-out;
+}
+
+.change-color.color-strawberry {
+  background: #fc7a66;
+  margin: 10px 20px;
+}
+.change-color.color-strawberry:hover {
+  background: #fb4f34;
+  transition: all 0.3s ease;
+}
+.change-color.color-strawberry:active {
+  background: #de2104;
+}
+.change-color.color-strawberry:focus {
+  outline: none;
+}
+.change-color.color-strawberry:hover {
+  background: #bada55;
   transition: background 1.2s ease-out;
 }
 
