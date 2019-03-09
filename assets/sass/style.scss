@@ -28,10 +28,16 @@ body {
     letter-spacing: 1.2px;
 }
 
-.buttons {
+.buttons, .instructions {
     margin-top: 50px;
     margin: 0 auto;
     width: 600px;
+    margin-bottom: 50px;
+}
+
+hr {
+    border-top: 2px dashed #000000;
+    margin-bottom: 50px;
 }
 
 // Imports button styles

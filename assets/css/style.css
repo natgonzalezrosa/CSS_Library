@@ -23,10 +23,16 @@ body {
   letter-spacing: 1.2px;
 }
 
-.buttons {
+.buttons, .instructions {
   margin-top: 50px;
   margin: 0 auto;
   width: 600px;
+  margin-bottom: 50px;
+}
+
+hr {
+  border-top: 2px dashed #000000;
+  margin-bottom: 50px;
 }
 
 .change-color.color-tangerine, .change-color.color-grass, .change-color.color-cocoa, .change-color.color-teal, .change-color.color-lilac, .change-color.color-honeydew, .change-color.color-avocado, .change-color.color-strawberry, .change-color.color-robin {
