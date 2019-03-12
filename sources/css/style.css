@@ -540,7 +540,7 @@ hr {
   transition: background 1.2s ease-out;
 }
 
-.gradient-button.color-blue {
+.gradient-button.color-ocean {
   background-image: linear-gradient(to left, #12CBC4, #1289A7, #0652DD, #1B1464);
   padding: 10px 30px;
   color: #ffffff;
@@ -561,16 +561,16 @@ hr {
   transform: rotate(0deg);
   margin: 10px 20px;
 }
-.gradient-button.color-blue:focus {
+.gradient-button.color-ocean:focus {
   outline: none;
 }
-.gradient-button.color-blue:hover {
+.gradient-button.color-ocean:hover {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-.gradient-button.color-red {
+.gradient-button.color-fire {
   background-image: linear-gradient(to left, #FFC312, #F79F1F, #EE5A24, #EA2027);
   padding: 10px 30px;
   color: #ffffff;
@@ -591,16 +591,16 @@ hr {
   transform: rotate(0deg);
   margin: 10px 20px;
 }
-.gradient-button.color-red:focus {
+.gradient-button.color-fire:focus {
   outline: none;
 }
-.gradient-button.color-red:hover {
+.gradient-button.color-fire:hover {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-.gradient-button.color-purple {
+.gradient-button.color-orchid {
   background-image: linear-gradient(to left, #FDA7DF, #D980FA, #9980FA, #5758BB);
   padding: 10px 30px;
   color: #ffffff;
@@ -621,16 +621,16 @@ hr {
   transform: rotate(0deg);
   margin: 10px 20px;
 }
-.gradient-button.color-purple:focus {
+.gradient-button.color-orchid:focus {
   outline: none;
 }
-.gradient-button.color-purple:hover {
+.gradient-button.color-orchid:hover {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-.gradient-button.color-green {
+.gradient-button.color-grass {
   background-image: linear-gradient(to left, #C4E538, #A3CB38, #009432, #006266);
   padding: 10px 30px;
   color: #ffffff;
@@ -651,16 +651,16 @@ hr {
   transform: rotate(0deg);
   margin: 10px 20px;
 }
-.gradient-button.color-green:focus {
+.gradient-button.color-grass:focus {
   outline: none;
 }
-.gradient-button.color-green:hover {
+.gradient-button.color-grass:hover {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-.gradient-button.color-pink {
+.gradient-button.color-raspberry {
   background-image: linear-gradient(to left, #ED4C67, #B53471, #833471, #833471);
   padding: 10px 30px;
   color: #ffffff;
@@ -681,16 +681,16 @@ hr {
   transform: rotate(0deg);
   margin: 10px 20px;
 }
-.gradient-button.color-pink:focus {
+.gradient-button.color-raspberry:focus {
   outline: none;
 }
-.gradient-button.color-pink:hover {
+.gradient-button.color-raspberry:hover {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-.gradient-button.color-blue2 {
+.gradient-button.color-sky {
   background-image: linear-gradient(to left, #82ccdd, #60a3bc, #3c6382, #0a3d62);
   padding: 10px 30px;
   color: #ffffff;
@@ -711,16 +711,16 @@ hr {
   transform: rotate(0deg);
   margin: 10px 20px;
 }
-.gradient-button.color-blue2:focus {
+.gradient-button.color-sky:focus {
   outline: none;
 }
-.gradient-button.color-blue2:hover {
+.gradient-button.color-sky:hover {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-.gradient-button.color-red2 {
+.gradient-button.color-chili {
   background-image: linear-gradient(to left, #f8c291, #e55039, #eb2f06, #b71540);
   padding: 10px 30px;
   color: #ffffff;
@@ -741,46 +741,16 @@ hr {
   transform: rotate(0deg);
   margin: 10px 20px;
 }
-.gradient-button.color-red2:focus {
+.gradient-button.color-chili:focus {
   outline: none;
 }
-.gradient-button.color-red2:hover {
+.gradient-button.color-chili:hover {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-.gradient-button.color-yellow {
-  background-image: linear-gradient(to left, #fad390, #f6b93b, #fa983a, #e58e26);
-  padding: 10px 30px;
-  color: #ffffff;
-  letter-spacing: 1.2px;
-  font-family: "Comfortaa", cursive;
-  font-weight: 500;
-  text-decoration: none;
-  font-size: 14px;
-  border-radius: 30px;
-  margin: 0 auto;
-  cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
-  -webkit-transition: -webkit-transform 1.5s;
-  /* Safari */
-  transition: transform 1.5s;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  margin: 10px 20px;
-}
-.gradient-button.color-yellow:focus {
-  outline: none;
-}
-.gradient-button.color-yellow:hover {
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
-.gradient-button.color-green2 {
+.gradient-button.color-forest {
   background-image: linear-gradient(to left, #b8e994, #78e08f, #38ada9, #079992);
   padding: 10px 30px;
   color: #ffffff;
@@ -801,16 +771,46 @@ hr {
   transform: rotate(0deg);
   margin: 10px 20px;
 }
-.gradient-button.color-green2:focus {
+.gradient-button.color-forest:focus {
   outline: none;
 }
-.gradient-button.color-green2:hover {
+.gradient-button.color-forest:hover {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-.zoom-button.color-blue {
+.gradient-button.color-sunshine {
+  background-image: linear-gradient(to left, #fad390, #f6b93b, #fa983a, #e58e26);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 1.5s;
+  /* Safari */
+  transition: transform 1.5s;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  margin: 10px 20px;
+}
+.gradient-button.color-sunshine:focus {
+  outline: none;
+}
+.gradient-button.color-sunshine:hover {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.zoom-button.color-ocean {
   background-image: linear-gradient(to left, #12CBC4, #1289A7, #0652DD, #1B1464);
   padding: 10px 30px;
   color: #ffffff;
@@ -828,16 +828,16 @@ hr {
   transform: scale(1);
   margin: 10px 20px;
 }
-.zoom-button.color-blue:focus {
+.zoom-button.color-ocean:focus {
   outline: none;
 }
-.zoom-button.color-blue:hover {
+.zoom-button.color-ocean:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.zoom-button.color-red {
+.zoom-button.color-fire {
   background-image: linear-gradient(to left, #FFC312, #F79F1F, #EE5A24, #EA2027);
   padding: 10px 30px;
   color: #ffffff;
@@ -855,16 +855,16 @@ hr {
   transform: scale(1);
   margin: 10px 20px;
 }
-.zoom-button.color-red:focus {
+.zoom-button.color-fire:focus {
   outline: none;
 }
-.zoom-button.color-red:hover {
+.zoom-button.color-fire:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.zoom-button.color-purple {
+.zoom-button.color-orchid {
   background-image: linear-gradient(to left, #FDA7DF, #D980FA, #9980FA, #5758BB);
   padding: 10px 30px;
   color: #ffffff;
@@ -882,16 +882,16 @@ hr {
   transform: scale(1);
   margin: 10px 20px;
 }
-.zoom-button.color-purple:focus {
+.zoom-button.color-orchid:focus {
   outline: none;
 }
-.zoom-button.color-purple:hover {
+.zoom-button.color-orchid:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.zoom-button.color-green {
+.zoom-button.color-grass {
   background-image: linear-gradient(to left, #C4E538, #A3CB38, #009432, #006266);
   padding: 10px 30px;
   color: #ffffff;
@@ -909,16 +909,16 @@ hr {
   transform: scale(1);
   margin: 10px 20px;
 }
-.zoom-button.color-green:focus {
+.zoom-button.color-grass:focus {
   outline: none;
 }
-.zoom-button.color-green:hover {
+.zoom-button.color-grass:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.zoom-button.color-pink {
+.zoom-button.color-raspberry {
   background-image: linear-gradient(to left, #ED4C67, #B53471, #833471, #833471);
   padding: 10px 30px;
   color: #ffffff;
@@ -936,16 +936,16 @@ hr {
   transform: scale(1);
   margin: 10px 20px;
 }
-.zoom-button.color-pink:focus {
+.zoom-button.color-raspberry:focus {
   outline: none;
 }
-.zoom-button.color-pink:hover {
+.zoom-button.color-raspberry:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.zoom-button.color-blue2 {
+.zoom-button.color-sky {
   background-image: linear-gradient(to left, #82ccdd, #60a3bc, #3c6382, #0a3d62);
   padding: 10px 30px;
   color: #ffffff;
@@ -963,16 +963,16 @@ hr {
   transform: scale(1);
   margin: 10px 20px;
 }
-.zoom-button.color-blue2:focus {
+.zoom-button.color-sky:focus {
   outline: none;
 }
-.zoom-button.color-blue2:hover {
+.zoom-button.color-sky:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.zoom-button.color-red2 {
+.zoom-button.color-chili {
   background-image: linear-gradient(to left, #f8c291, #e55039, #eb2f06, #b71540);
   padding: 10px 30px;
   color: #ffffff;
@@ -990,16 +990,16 @@ hr {
   transform: scale(1);
   margin: 10px 20px;
 }
-.zoom-button.color-red2:focus {
+.zoom-button.color-chili:focus {
   outline: none;
 }
-.zoom-button.color-red2:hover {
+.zoom-button.color-chili:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.zoom-button.color-green2 {
+.zoom-button.color-forest {
   background-image: linear-gradient(to left, #b8e994, #78e08f, #38ada9, #079992);
   padding: 10px 30px;
   color: #ffffff;
@@ -1017,16 +1017,16 @@ hr {
   transform: scale(1);
   margin: 10px 20px;
 }
-.zoom-button.color-green2:focus {
+.zoom-button.color-forest:focus {
   outline: none;
 }
-.zoom-button.color-green2:hover {
+.zoom-button.color-forest:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.zoom-button.color-yellow {
+.zoom-button.color-sunshine {
   background-image: linear-gradient(to left, #fad390, #f6b93b, #fa983a, #e58e26);
   padding: 10px 30px;
   color: #ffffff;
@@ -1044,16 +1044,16 @@ hr {
   transform: scale(1);
   margin: 10px 20px;
 }
-.zoom-button.color-yellow:focus {
+.zoom-button.color-sunshine:focus {
   outline: none;
 }
-.zoom-button.color-yellow:hover {
+.zoom-button.color-sunshine:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.rotate-button.color-blue {
+.rotate-button.color-ocean {
   background-image: linear-gradient(to left, #12CBC4, #1289A7, #0652DD, #1B1464);
   padding: 10px 30px;
   color: #ffffff;
@@ -1071,16 +1071,16 @@ hr {
   transition: transform 2s;
   margin: 10px 20px;
 }
-.rotate-button.color-blue:focus {
+.rotate-button.color-ocean:focus {
   outline: none;
 }
-.rotate-button.color-blue:hover {
+.rotate-button.color-ocean:hover {
   -webkit-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
-.rotate-button.color-red {
+.rotate-button.color-fire {
   background-image: linear-gradient(to left, #FFC312, #F79F1F, #EE5A24, #EA2027);
   padding: 10px 30px;
   color: #ffffff;
@@ -1101,16 +1101,16 @@ hr {
   transform: rotate(0deg);
   margin: 10px 20px;
 }
-.rotate-button.color-red:focus {
+.rotate-button.color-fire:focus {
   outline: none;
 }
-.rotate-button.color-red:hover {
+.rotate-button.color-fire:hover {
   -webkit-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
-.rotate-button.color-purple {
+.rotate-button.color-orchid {
   background-image: linear-gradient(to left, #FDA7DF, #D980FA, #9980FA, #5758BB);
   padding: 10px 30px;
   color: #ffffff;
@@ -1131,16 +1131,16 @@ hr {
   transform: rotate(0deg);
   margin: 10px 20px;
 }
-.rotate-button.color-purple:focus {
+.rotate-button.color-orchid:focus {
   outline: none;
 }
-.rotate-button.color-purple:hover {
+.rotate-button.color-orchid:hover {
   -webkit-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
-.rotate-button.color-green {
+.rotate-button.color-grass {
   background-image: linear-gradient(to left, #C4E538, #A3CB38, #009432, #006266);
   padding: 10px 30px;
   color: #ffffff;
@@ -1161,16 +1161,16 @@ hr {
   transform: rotate(0deg);
   margin: 10px 20px;
 }
-.rotate-button.color-green:focus {
+.rotate-button.color-grass:focus {
   outline: none;
 }
-.rotate-button.color-green:hover {
+.rotate-button.color-grass:hover {
   -webkit-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
-.rotate-button.color-pink {
+.rotate-button.color-raspberry {
   background-image: linear-gradient(to left, #ED4C67, #B53471, #833471, #833471);
   padding: 10px 30px;
   color: #ffffff;
@@ -1191,16 +1191,16 @@ hr {
   transform: rotate(0deg);
   margin: 10px 20px;
 }
-.rotate-button.color-pink:focus {
+.rotate-button.color-raspberry:focus {
   outline: none;
 }
-.rotate-button.color-pink:hover {
+.rotate-button.color-raspberry:hover {
   -webkit-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
-.rotate-button.color-blue2 {
+.rotate-button.color-sky {
   background-image: linear-gradient(to left, #82ccdd, #60a3bc, #3c6382, #0a3d62);
   padding: 10px 30px;
   color: #ffffff;
@@ -1221,16 +1221,16 @@ hr {
   transform: rotate(0deg);
   margin: 10px 20px;
 }
-.rotate-button.color-blue2:focus {
+.rotate-button.color-sky:focus {
   outline: none;
 }
-.rotate-button.color-blue2:hover {
+.rotate-button.color-sky:hover {
   -webkit-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
-.rotate-button.color-red2 {
+.rotate-button.color-chili {
   background-image: linear-gradient(to left, #f8c291, #e55039, #eb2f06, #b71540);
   padding: 10px 30px;
   color: #ffffff;
@@ -1251,46 +1251,16 @@ hr {
   transform: rotate(0deg);
   margin: 10px 20px;
 }
-.rotate-button.color-red2:focus {
+.rotate-button.color-chili:focus {
   outline: none;
 }
-.rotate-button.color-red2:hover {
+.rotate-button.color-chili:hover {
   -webkit-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
-.rotate-button.color-yellow {
-  background-image: linear-gradient(to left, #fad390, #f6b93b, #fa983a, #e58e26);
-  padding: 10px 30px;
-  color: #ffffff;
-  letter-spacing: 1.2px;
-  font-family: "Comfortaa", cursive;
-  font-weight: 500;
-  text-decoration: none;
-  font-size: 14px;
-  border-radius: 30px;
-  margin: 0 auto;
-  cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
-  -webkit-transition: -webkit-transform 2s;
-  /* Safari */
-  transition: transform 2s;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  margin: 10px 20px;
-}
-.rotate-button.color-yellow:focus {
-  outline: none;
-}
-.rotate-button.color-yellow:hover {
-  -webkit-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  transform: rotate(360deg);
-}
-
-.rotate-button.color-green2 {
+.rotate-button.color-forest {
   background-image: linear-gradient(to left, #b8e994, #78e08f, #38ada9, #079992);
   padding: 10px 30px;
   color: #ffffff;
@@ -1311,10 +1281,40 @@ hr {
   transform: rotate(0deg);
   margin: 10px 20px;
 }
-.rotate-button.color-green2:focus {
+.rotate-button.color-forest:focus {
   outline: none;
 }
-.rotate-button.color-green2:hover {
+.rotate-button.color-forest:hover {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.rotate-button.color-sunshine {
+  background-image: linear-gradient(to left, #fad390, #f6b93b, #fa983a, #e58e26);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 2s;
+  /* Safari */
+  transition: transform 2s;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  margin: 10px 20px;
+}
+.rotate-button.color-sunshine:focus {
+  outline: none;
+}
+.rotate-button.color-sunshine:hover {
   -webkit-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);

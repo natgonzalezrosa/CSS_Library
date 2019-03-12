@@ -1,5 +1,5 @@
 // Zoom-In Gradient Colors (with Gradient)
-.zoom-button.color-blue {
+.zoom-button.color-ocean {
     @include gradient-bg(#12CBC4, #1289A7, #0652DD, #1B1464);
     @include transform(scale(1));
     &:hover {
@@ -8,7 +8,7 @@
     margin: 10px 20px;
 }
 
-.zoom-button.color-red {
+.zoom-button.color-fire {
     @include gradient-bg(#FFC312, #F79F1F, #EE5A24, #EA2027);
     @include transform(scale(1));
     &:hover {
@@ -17,7 +17,7 @@
     margin: 10px 20px;
 }
 
-.zoom-button.color-purple {
+.zoom-button.color-orchid {
     @include gradient-bg(#FDA7DF, #D980FA, #9980FA, #5758BB);
     @include transform(scale(1));
     &:hover {
@@ -26,7 +26,7 @@
     margin: 10px 20px;
 }
 
-.zoom-button.color-green {
+.zoom-button.color-grass {
     @include gradient-bg(#C4E538, #A3CB38, #009432, #006266);
     @include transform(scale(1));
     &:hover {
@@ -35,7 +35,7 @@
     margin: 10px 20px;
 }
 
-.zoom-button.color-pink {
+.zoom-button.color-raspberry {
     @include gradient-bg(#ED4C67, #B53471, #833471, #833471);
     @include transform(scale(1));
     &:hover {
@@ -44,7 +44,7 @@
     margin: 10px 20px;
 }
 
-.zoom-button.color-blue2 {
+.zoom-button.color-sky {
     @include gradient-bg(#82ccdd, #60a3bc, #3c6382, #0a3d62);
     @include transform(scale(1));
     &:hover {
@@ -53,7 +53,7 @@
     margin: 10px 20px;
 }
 
-.zoom-button.color-red2 {
+.zoom-button.color-chili {
     @include gradient-bg(#f8c291, #e55039, #eb2f06, #b71540);
     @include transform(scale(1));
     &:hover {
@@ -62,7 +62,7 @@
     margin: 10px 20px;
 }
 
-.zoom-button.color-green2 {
+.zoom-button.color-forest {
     @include gradient-bg(#b8e994, #78e08f, #38ada9, #079992);
     @include transform(scale(1));
     &:hover {
@@ -71,7 +71,7 @@
     margin: 10px 20px;
 }
 
-.zoom-button.color-yellow {
+.zoom-button.color-sunshine {
     @include gradient-bg(#fad390, #f6b93b, #fa983a, #e58e26);
     @include transform(scale(1));
     &:hover {
