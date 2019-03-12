@@ -1,5 +1,5 @@
-# buttonAnimate.css
-buttonAnimate.css is a CSS library for animated buttons.
+# About buttonAnimate.css
+buttonAnimate.css is a CSS library for ready-to-use animated buttons.
 
 
 ## Landing Page
