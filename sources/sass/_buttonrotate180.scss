@@ -1,97 +1,98 @@
-// Gradient Button (upside down)
+// Buttons Rotate 180 Degrees (with Gradient Colors)
+
+// Ocean Color
 .gradient-button.color-ocean {
-    @include gradient-bg(#12CBC4, #1289A7, #0652DD, #1B1464);
-    -webkit-transition: -webkit-transform 1.5s; /* Safari */
-    transition: transform 1.5s;
-    @include transform(rotate(0deg));
+    @include gradient-bg(#12CBC4, #1289A7, #0652DD, #1B1464); // Adjust gradient colors here
+    -webkit-transition: -webkit-transform 1.5s; // Transition property and duration (Safari)
+    transition: transform 1.5s; // Transition property and duration
     &:hover {
-        @include transform(rotate(180deg));
+        @include transform(rotate(180deg)); // Ending rotation, upon hover
     }
-    margin: 10px 20px;
+    margin: 10px 20px; // Space around button
 }
 
+// Fire Color
 .gradient-button.color-fire {
     @include gradient-bg(#FFC312, #F79F1F, #EE5A24, #EA2027);
     -webkit-transition: -webkit-transform 1.5s; /* Safari */
     transition: transform 1.5s;
-    @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
     }
     margin: 10px 20px;
 }
 
+// Orchid Color
 .gradient-button.color-orchid {
     @include gradient-bg(#FDA7DF, #D980FA, #9980FA, #5758BB);
     -webkit-transition: -webkit-transform 1.5s; /* Safari */
     transition: transform 1.5s;
-    @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
     }
     margin: 10px 20px;
 }
 
+// Grass Color
 .gradient-button.color-grass {
     @include gradient-bg(#C4E538, #A3CB38, #009432, #006266);
     -webkit-transition: -webkit-transform 1.5s; /* Safari */
     transition: transform 1.5s;
-    @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
     }
     margin: 10px 20px;
 }
 
+// Raspberry Color
 .gradient-button.color-raspberry {
     @include gradient-bg(#ED4C67, #B53471, #833471, #833471);
     -webkit-transition: -webkit-transform 1.5s; /* Safari */
     transition: transform 1.5s;
-    @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
     }
     margin: 10px 20px;
 }
 
+// Sky Color
 .gradient-button.color-sky {
     @include gradient-bg(#82ccdd, #60a3bc, #3c6382, #0a3d62);
     -webkit-transition: -webkit-transform 1.5s; /* Safari */
     transition: transform 1.5s;
-    @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
     }
     margin: 10px 20px;
 }
 
+// Chili Color
 .gradient-button.color-chili {
     @include gradient-bg(#f8c291, #e55039, #eb2f06, #b71540);
     -webkit-transition: -webkit-transform 1.5s; /* Safari */
     transition: transform 1.5s;
-    @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
     }
     margin: 10px 20px;
 }
 
+// Forest Color
 .gradient-button.color-forest {
     @include gradient-bg(#b8e994, #78e08f, #38ada9, #079992);
     -webkit-transition: -webkit-transform 1.5s; /* Safari */
     transition: transform 1.5s;
-    @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
     }
     margin: 10px 20px;
 }
 
+// Sunshine Color
 .gradient-button.color-sunshine {
     @include gradient-bg(#fad390, #f6b93b, #fa983a, #e58e26);
     -webkit-transition: -webkit-transform 1.5s; /* Safari */
     transition: transform 1.5s;
-    @include transform(rotate(0deg));
     &:hover {
         @include transform(rotate(180deg));
     }

@@ -1,13 +1,16 @@
-// Zoom-In Gradient Colors (with Gradient)
+// Zoom-In Buttons (with Gradient Colors)
+
+// Ocean Color
 .zoom-button.color-ocean {
-    @include gradient-bg(#12CBC4, #1289A7, #0652DD, #1B1464);
-    @include transform(scale(1));
+    @include gradient-bg(#12CBC4, #1289A7, #0652DD, #1B1464); // Gradient colors
+    @include transform(scale(1)); // Original scale at 1.0
     &:hover {
-        @include transform(scale(1.2));
+        @include transform(scale(1.2)); // Scale size changed upon hover (can increase or decrease this number)
     }
-    margin: 10px 20px;
+    margin: 10px 20px; // Margin around the button
 }
 
+// Fire Color
 .zoom-button.color-fire {
     @include gradient-bg(#FFC312, #F79F1F, #EE5A24, #EA2027);
     @include transform(scale(1));
@@ -17,6 +20,7 @@
     margin: 10px 20px;
 }
 
+// Orchid Color
 .zoom-button.color-orchid {
     @include gradient-bg(#FDA7DF, #D980FA, #9980FA, #5758BB);
     @include transform(scale(1));
@@ -26,6 +30,7 @@
     margin: 10px 20px;
 }
 
+// Grass Color
 .zoom-button.color-grass {
     @include gradient-bg(#C4E538, #A3CB38, #009432, #006266);
     @include transform(scale(1));
@@ -35,6 +40,7 @@
     margin: 10px 20px;
 }
 
+// Raspberry Color
 .zoom-button.color-raspberry {
     @include gradient-bg(#ED4C67, #B53471, #833471, #833471);
     @include transform(scale(1));
@@ -44,6 +50,7 @@
     margin: 10px 20px;
 }
 
+// Sky Color
 .zoom-button.color-sky {
     @include gradient-bg(#82ccdd, #60a3bc, #3c6382, #0a3d62);
     @include transform(scale(1));
@@ -53,6 +60,7 @@
     margin: 10px 20px;
 }
 
+// Chili Color
 .zoom-button.color-chili {
     @include gradient-bg(#f8c291, #e55039, #eb2f06, #b71540);
     @include transform(scale(1));
@@ -62,6 +70,7 @@
     margin: 10px 20px;
 }
 
+// Forest Color
 .zoom-button.color-forest {
     @include gradient-bg(#b8e994, #78e08f, #38ada9, #079992);
     @include transform(scale(1));
@@ -71,6 +80,7 @@
     margin: 10px 20px;
 }
 
+// Sunshine Color
 .zoom-button.color-sunshine {
     @include gradient-bg(#fad390, #f6b93b, #fa983a, #e58e26);
     @include transform(scale(1));
