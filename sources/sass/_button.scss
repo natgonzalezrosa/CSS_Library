@@ -3,7 +3,7 @@
     background: $bg;
     &:hover {
         background: darken($bg, 10%); // Background darkens 10% upon hover
-        transition: all 0.3s ease; // Transity property, duration and timing function
+        transition: all 0.3s ease; // Transition property, duration and timing function
     }
     &:active {
         background: darken($bg, 25%); // Background darkens 25% once button is active
