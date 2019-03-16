@@ -2,24 +2,24 @@
 %basic-button-left {
     padding: 10px 30px;
     color: #232323;
-    letter-spacing: 1.5px;
-    font-family: $ff;
+    letter-spacing: 1.5px; // Spacing between letters
+    font-family: $ff; // Main font style for button
     font-weight: 700;
     text-decoration: none;
     font-size: 18px;
-    -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
-    -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
-    box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
-    border-radius: 15px 50px;
+    -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3; // Box shadow (Mozilla)
+    -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3; // Box shadow (Safari)
+    box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3; // Box shadow
+    border-radius: 15px 50px; // Border for the button
     margin: 0 auto;
-    cursor: crosshair;
+    cursor: crosshair; // Cursor style
 }
 
 // Basic Button Colors with Left Tilt
 .left-tilt.color-robin {
-    @include button-bg(#94d2ff);
-    @extend %basic-button-left;
-    margin: 10px 20px;
+    @include button-bg(#94d2ff); // Includes @mixin to darken chosen background
+    @extend %basic-button-left; // Extends the set of properties above to this button
+    margin: 10px 20px; // Space around button
 }
 
 .left-tilt.color-strawberry {
