@@ -10,7 +10,7 @@
     -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3; // Box shadow (Mozilla)
     -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3; // Box shadow (Safari)
     box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3; // Box shadow
-    border-radius: 15px 50px; // Border for the button
+    border-radius: 15px 50px; // Border for the button (for left tilt)
     margin: 0 auto;
     cursor: crosshair; // Cursor style
 }
@@ -31,6 +31,7 @@
     margin: 10px 20px;
 }
 
+// Avocado Color
 .left-tilt.color-avocado {
     @include button-bg(#bada55);
     @extend %basic-button-left;
