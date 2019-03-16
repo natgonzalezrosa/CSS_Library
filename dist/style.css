@@ -1,0 +1,1248 @@
+/* Compiled and Minified Version of Animated Button Library  */
+
+/* CSS Properties for all of the Left Tilt Buttons */
+.left-tilt.color-tangerine, .left-tilt.color-grass, .left-tilt.color-cocoa, .left-tilt.color-teal, .left-tilt.color-lilac, .left-tilt.color-honeydew, .left-tilt.color-avocado, .left-tilt.color-strawberry, .left-tilt.color-robin {
+  padding: 10px 30px;
+  color: #232323;
+  letter-spacing: 1.5px;
+  font-family: arial;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+  -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  border-radius: 15px 50px;
+  margin: 0 auto;
+  cursor: crosshair;
+}
+
+/* Left-Tilt Button in Robin Color */
+.left-tilt.color-robin {
+  background: #94d2ff;
+  margin: 10px 20px;
+}
+.left-tilt.color-robin:hover {
+  background: #61bdff;
+  transition: all 0.3s ease;
+}
+.left-tilt.color-robin:active {
+  background: #159cff;
+}
+.left-tilt.color-robin:focus {
+  outline: none;
+}
+
+/* Left-Tilt Button in Strawberry Color */
+.left-tilt.color-strawberry {
+  background: #fc7a66;
+  margin: 10px 20px;
+}
+.left-tilt.color-strawberry:hover {
+  background: #fb4f34;
+  transition: all 0.3s ease;
+}
+.left-tilt.color-strawberry:active {
+  background: #de2104;
+}
+.left-tilt.color-strawberry:focus {
+  outline: none;
+}
+
+/* Left-Tilt Button in Avocado Color */
+.left-tilt.color-avocado {
+  background: #bada55;
+  margin: 10px 20px;
+}
+.left-tilt.color-avocado:hover {
+  background: #a8cf2d;
+  transition: all 0.3s ease;
+}
+.left-tilt.color-avocado:active {
+  background: #75901f;
+}
+.left-tilt.color-avocado:focus {
+  outline: none;
+}
+
+/* Left-Tilt Button in Honeydew Color */
+.left-tilt.color-honeydew {
+  background: #fef88c;
+  margin: 10px 20px;
+}
+.left-tilt.color-honeydew:hover {
+  background: #fef559;
+  transition: all 0.3s ease;
+}
+.left-tilt.color-honeydew:active {
+  background: #fdf00e;
+}
+.left-tilt.color-honeydew:focus {
+  outline: none;
+}
+
+/* Left-Tilt Button in Lilac Color */
+.left-tilt.color-lilac {
+  background: #d8b2d8;
+  margin: 10px 20px;
+}
+.left-tilt.color-lilac:hover {
+  background: #c790c7;
+  transition: all 0.3s ease;
+}
+.left-tilt.color-lilac:active {
+  background: #ad5dad;
+}
+.left-tilt.color-lilac:focus {
+  outline: none;
+}
+
+/* Left-Tilt Button in Teal Color */
+.left-tilt.color-teal {
+  background: #9bdddd;
+  margin: 10px 20px;
+}
+.left-tilt.color-teal:hover {
+  background: #75d0d0;
+  transition: all 0.3s ease;
+}
+.left-tilt.color-teal:active {
+  background: #3fb9b9;
+}
+.left-tilt.color-teal:focus {
+  outline: none;
+}
+
+/* Left-Tilt Button in Cocoa Color */
+.left-tilt.color-cocoa {
+  background: #c9b2b4;
+  margin: 10px 20px;
+}
+.left-tilt.color-cocoa:hover {
+  background: #b49497;
+  transition: all 0.3s ease;
+}
+.left-tilt.color-cocoa:active {
+  background: #94686c;
+}
+.left-tilt.color-cocoa:focus {
+  outline: none;
+}
+
+/* Left-Tilt Button in Grass Color */
+.left-tilt.color-grass {
+  background: #7fc3a1;
+  margin: 10px 20px;
+}
+.left-tilt.color-grass:hover {
+  background: #5cb388;
+  transition: all 0.3s ease;
+}
+.left-tilt.color-grass:active {
+  background: #3e8461;
+}
+.left-tilt.color-grass:focus {
+  outline: none;
+}
+
+/* Left-Tilt Button in Tangerine Color */
+.left-tilt.color-tangerine {
+  background: #ffa584;
+  margin: 10px 20px;
+}
+.left-tilt.color-tangerine:hover {
+  background: #ff8051;
+  transition: all 0.3s ease;
+}
+.left-tilt.color-tangerine:active {
+  background: #ff4805;
+}
+.left-tilt.color-tangerine:focus {
+  outline: none;
+}
+
+/* CSS Properties for all of the Right Tilt Buttons */
+.right-tilt.color-tangerine, .right-tilt.color-grass, .right-tilt.color-cocoa, .right-tilt.color-teal, .right-tilt.color-lilac, .right-tilt.color-honeydew, .right-tilt.color-avocado, .right-tilt.color-strawberry, .right-tilt.color-robin {
+  padding: 10px 30px;
+  color: #232323;
+  letter-spacing: 1.5px;
+  font-family: arial;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+  -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  border-radius: 50px 15px;
+  margin: 0 auto;
+  cursor: crosshair;
+}
+
+/* Right-Tilt Button in Robin Color */
+.right-tilt.color-robin {
+  background: #94d2ff;
+  margin: 10px 20px;
+}
+.right-tilt.color-robin:hover {
+  background: #61bdff;
+  transition: all 0.3s ease;
+}
+.right-tilt.color-robin:active {
+  background: #159cff;
+}
+.right-tilt.color-robin:focus {
+  outline: none;
+}
+
+/* Right-Tilt Button in Strawberry Color */
+.right-tilt.color-strawberry {
+  background: #fc7a66;
+  margin: 10px 20px;
+}
+.right-tilt.color-strawberry:hover {
+  background: #fb4f34;
+  transition: all 0.3s ease;
+}
+.right-tilt.color-strawberry:active {
+  background: #de2104;
+}
+.right-tilt.color-strawberry:focus {
+  outline: none;
+}
+
+/* Right-Tilt Button in Avocado Color */
+.right-tilt.color-avocado {
+  background: #bada55;
+  margin: 10px 20px;
+}
+.right-tilt.color-avocado:hover {
+  background: #a8cf2d;
+  transition: all 0.3s ease;
+}
+.right-tilt.color-avocado:active {
+  background: #75901f;
+}
+.right-tilt.color-avocado:focus {
+  outline: none;
+}
+
+/* Right-Tilt Button in Honeydew Color */
+.right-tilt.color-honeydew {
+  background: #fef88c;
+  margin: 10px 20px;
+}
+.right-tilt.color-honeydew:hover {
+  background: #fef559;
+  transition: all 0.3s ease;
+}
+.right-tilt.color-honeydew:active {
+  background: #fdf00e;
+}
+.right-tilt.color-honeydew:focus {
+  outline: none;
+}
+
+/* Right-Tilt Button in Lilac Color */
+.right-tilt.color-lilac {
+  background: #d8b2d8;
+  margin: 10px 20px;
+}
+.right-tilt.color-lilac:hover {
+  background: #c790c7;
+  transition: all 0.3s ease;
+}
+.right-tilt.color-lilac:active {
+  background: #ad5dad;
+}
+.right-tilt.color-lilac:focus {
+  outline: none;
+}
+
+/* Right-Tilt Button in Teal Color */
+.right-tilt.color-teal {
+  background: #9bdddd;
+  margin: 10px 20px;
+}
+.right-tilt.color-teal:hover {
+  background: #75d0d0;
+  transition: all 0.3s ease;
+}
+.right-tilt.color-teal:active {
+  background: #3fb9b9;
+}
+.right-tilt.color-teal:focus {
+  outline: none;
+}
+
+/* Right-Tilt Button in Cocoa Color */
+.right-tilt.color-cocoa {
+  background: #c9b2b4;
+  margin: 10px 20px;
+}
+.right-tilt.color-cocoa:hover {
+  background: #b49497;
+  transition: all 0.3s ease;
+}
+.right-tilt.color-cocoa:active {
+  background: #94686c;
+}
+.right-tilt.color-cocoa:focus {
+  outline: none;
+}
+
+/* Right-Tilt Button in Grass Color */
+.right-tilt.color-grass {
+  background: #7fc3a1;
+  margin: 10px 20px;
+}
+.right-tilt.color-grass:hover {
+  background: #5cb388;
+  transition: all 0.3s ease;
+}
+.right-tilt.color-grass:active {
+  background: #3e8461;
+}
+.right-tilt.color-grass:focus {
+  outline: none;
+}
+
+/* Right-Tilt Button in Tangerine Color */
+.right-tilt.color-tangerine {
+  background: #ffa584;
+  margin: 10px 20px;
+}
+.right-tilt.color-tangerine:hover {
+  background: #ff8051;
+  transition: all 0.3s ease;
+}
+.right-tilt.color-tangerine:active {
+  background: #ff4805;
+}
+.right-tilt.color-tangerine:focus {
+  outline: none;
+}
+
+/* CSS Properties for all of the Color Change Buttons */
+.change-color.color-tangerine, .change-color.color-grass, .change-color.color-cocoa, .change-color.color-teal, .change-color.color-lilac, .change-color.color-honeydew, .change-color.color-avocado, .change-color.color-strawberry, .change-color.color-robin {
+  padding: 10px 30px;
+  color: #232323;
+  letter-spacing: 1.5px;
+  font-family: arial;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+  -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+}
+
+/* Color Change Button in Robin Color */
+.change-color.color-robin {
+  background: #94d2ff;
+  margin: 10px 20px;
+}
+.change-color.color-robin:hover {
+  background: #61bdff;
+  transition: all 0.3s ease;
+}
+.change-color.color-robin:active {
+  background: #159cff;
+}
+.change-color.color-robin:focus {
+  outline: none;
+}
+.change-color.color-robin:hover {
+  background: #fc7a66;
+  transition: background 1.2s ease-out;
+}
+
+/* Color Change Button in Strawberry Color */
+.change-color.color-strawberry {
+  background: #fc7a66;
+  margin: 10px 20px;
+}
+.change-color.color-strawberry:hover {
+  background: #fb4f34;
+  transition: all 0.3s ease;
+}
+.change-color.color-strawberry:active {
+  background: #de2104;
+}
+.change-color.color-strawberry:focus {
+  outline: none;
+}
+.change-color.color-strawberry:hover {
+  background: #bada55;
+  transition: background 1.2s ease-out;
+}
+
+/* Color Change Button in Avocado Color */
+.change-color.color-avocado {
+  background: #bada55;
+  margin: 10px 20px;
+}
+.change-color.color-avocado:hover {
+  background: #a8cf2d;
+  transition: all 0.3s ease;
+}
+.change-color.color-avocado:active {
+  background: #75901f;
+}
+.change-color.color-avocado:focus {
+  outline: none;
+}
+.change-color.color-avocado:hover {
+  background: #fef88c;
+  transition: background 1.2s ease-out;
+}
+
+/* Color Change Button in Honeydew Color */
+.change-color.color-honeydew {
+  background: #fef88c;
+  margin: 10px 20px;
+}
+.change-color.color-honeydew:hover {
+  background: #fef559;
+  transition: all 0.3s ease;
+}
+.change-color.color-honeydew:active {
+  background: #fdf00e;
+}
+.change-color.color-honeydew:focus {
+  outline: none;
+}
+.change-color.color-honeydew:hover {
+  background: #d8b2d8;
+  transition: background 1.2s ease-out;
+}
+
+/* Color Change Button in Lilac Color */
+.change-color.color-lilac {
+  background: #d8b2d8;
+  margin: 10px 20px;
+}
+.change-color.color-lilac:hover {
+  background: #c790c7;
+  transition: all 0.3s ease;
+}
+.change-color.color-lilac:active {
+  background: #ad5dad;
+}
+.change-color.color-lilac:focus {
+  outline: none;
+}
+.change-color.color-lilac:hover {
+  background: #fef88c;
+  transition: background 1.2s ease-out;
+}
+
+/* Color Change Button in Teal Color */
+.change-color.color-teal {
+  background: #9bdddd;
+  margin: 10px 20px;
+}
+.change-color.color-teal:hover {
+  background: #75d0d0;
+  transition: all 0.3s ease;
+}
+.change-color.color-teal:active {
+  background: #3fb9b9;
+}
+.change-color.color-teal:focus {
+  outline: none;
+}
+.change-color.color-teal:hover {
+  background: #c9b2b4;
+  transition: background 1.2s ease-out;
+}
+
+/* Color Change Button in Cocoa Color */
+.change-color.color-cocoa {
+  background: #c9b2b4;
+  margin: 10px 20px;
+}
+.change-color.color-cocoa:hover {
+  background: #b49497;
+  transition: all 0.3s ease;
+}
+.change-color.color-cocoa:active {
+  background: #94686c;
+}
+.change-color.color-cocoa:focus {
+  outline: none;
+}
+.change-color.color-cocoa:hover {
+  background: #7fc3a1;
+  transition: background 1.2s ease-out;
+}
+
+/* Color Change Button in Grass Color */
+.change-color.color-grass {
+  background: #7fc3a1;
+  margin: 10px 20px;
+}
+.change-color.color-grass:hover {
+  background: #5cb388;
+  transition: all 0.3s ease;
+}
+.change-color.color-grass:active {
+  background: #3e8461;
+}
+.change-color.color-grass:focus {
+  outline: none;
+}
+.change-color.color-grass:hover {
+  background: #ffa584;
+  transition: background 1.2s ease-out;
+}
+
+/* Color Change Button in Tangerine Color */
+.change-color.color-tangerine {
+  background: #ffa584;
+  margin: 10px 20px;
+}
+.change-color.color-tangerine:hover {
+  background: #ff8051;
+  transition: all 0.3s ease;
+}
+.change-color.color-tangerine:active {
+  background: #ff4805;
+}
+.change-color.color-tangerine:focus {
+  outline: none;
+}
+.change-color.color-tangerine:hover {
+  background: #94d2ff;
+  transition: background 1.2s ease-out;
+}
+
+
+.gradient-button.color-ocean {
+  background-image: linear-gradient(to left, #12CBC4, #1289A7, #0652DD, #1B1464);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 1.5s;
+  transition: transform 1.5s;
+  margin: 10px 20px;
+}
+.gradient-button.color-ocean:focus {
+  outline: none;
+}
+.gradient-button.color-ocean:hover {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.gradient-button.color-fire {
+  background-image: linear-gradient(to left, #FFC312, #F79F1F, #EE5A24, #EA2027);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 1.5s;
+  /* Safari */
+  transition: transform 1.5s;
+  margin: 10px 20px;
+}
+.gradient-button.color-fire:focus {
+  outline: none;
+}
+.gradient-button.color-fire:hover {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.gradient-button.color-orchid {
+  background-image: linear-gradient(to left, #FDA7DF, #D980FA, #9980FA, #5758BB);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 1.5s;
+  /* Safari */
+  transition: transform 1.5s;
+  margin: 10px 20px;
+}
+.gradient-button.color-orchid:focus {
+  outline: none;
+}
+.gradient-button.color-orchid:hover {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.gradient-button.color-grass {
+  background-image: linear-gradient(to left, #C4E538, #A3CB38, #009432, #006266);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 1.5s;
+  /* Safari */
+  transition: transform 1.5s;
+  margin: 10px 20px;
+}
+.gradient-button.color-grass:focus {
+  outline: none;
+}
+.gradient-button.color-grass:hover {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.gradient-button.color-raspberry {
+  background-image: linear-gradient(to left, #ED4C67, #B53471, #833471, #833471);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 1.5s;
+  /* Safari */
+  transition: transform 1.5s;
+  margin: 10px 20px;
+}
+.gradient-button.color-raspberry:focus {
+  outline: none;
+}
+.gradient-button.color-raspberry:hover {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.gradient-button.color-sky {
+  background-image: linear-gradient(to left, #82ccdd, #60a3bc, #3c6382, #0a3d62);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 1.5s;
+  /* Safari */
+  transition: transform 1.5s;
+  margin: 10px 20px;
+}
+.gradient-button.color-sky:focus {
+  outline: none;
+}
+.gradient-button.color-sky:hover {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.gradient-button.color-chili {
+  background-image: linear-gradient(to left, #f8c291, #e55039, #eb2f06, #b71540);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 1.5s;
+  /* Safari */
+  transition: transform 1.5s;
+  margin: 10px 20px;
+}
+.gradient-button.color-chili:focus {
+  outline: none;
+}
+.gradient-button.color-chili:hover {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.gradient-button.color-forest {
+  background-image: linear-gradient(to left, #b8e994, #78e08f, #38ada9, #079992);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 1.5s;
+  /* Safari */
+  transition: transform 1.5s;
+  margin: 10px 20px;
+}
+.gradient-button.color-forest:focus {
+  outline: none;
+}
+.gradient-button.color-forest:hover {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.gradient-button.color-sunshine {
+  background-image: linear-gradient(to left, #fad390, #f6b93b, #fa983a, #e58e26);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 1.5s;
+  /* Safari */
+  transition: transform 1.5s;
+  margin: 10px 20px;
+}
+.gradient-button.color-sunshine:focus {
+  outline: none;
+}
+.gradient-button.color-sunshine:hover {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.zoom-button.color-ocean {
+  background-image: linear-gradient(to left, #12CBC4, #1289A7, #0652DD, #1B1464);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  margin: 10px 20px;
+}
+.zoom-button.color-ocean:focus {
+  outline: none;
+}
+.zoom-button.color-ocean:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.zoom-button.color-fire {
+  background-image: linear-gradient(to left, #FFC312, #F79F1F, #EE5A24, #EA2027);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  margin: 10px 20px;
+}
+.zoom-button.color-fire:focus {
+  outline: none;
+}
+.zoom-button.color-fire:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.zoom-button.color-orchid {
+  background-image: linear-gradient(to left, #FDA7DF, #D980FA, #9980FA, #5758BB);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  margin: 10px 20px;
+}
+.zoom-button.color-orchid:focus {
+  outline: none;
+}
+.zoom-button.color-orchid:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.zoom-button.color-grass {
+  background-image: linear-gradient(to left, #C4E538, #A3CB38, #009432, #006266);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  margin: 10px 20px;
+}
+.zoom-button.color-grass:focus {
+  outline: none;
+}
+.zoom-button.color-grass:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.zoom-button.color-raspberry {
+  background-image: linear-gradient(to left, #ED4C67, #B53471, #833471, #833471);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  margin: 10px 20px;
+}
+.zoom-button.color-raspberry:focus {
+  outline: none;
+}
+.zoom-button.color-raspberry:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.zoom-button.color-sky {
+  background-image: linear-gradient(to left, #82ccdd, #60a3bc, #3c6382, #0a3d62);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  margin: 10px 20px;
+}
+.zoom-button.color-sky:focus {
+  outline: none;
+}
+.zoom-button.color-sky:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.zoom-button.color-chili {
+  background-image: linear-gradient(to left, #f8c291, #e55039, #eb2f06, #b71540);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  margin: 10px 20px;
+}
+.zoom-button.color-chili:focus {
+  outline: none;
+}
+.zoom-button.color-chili:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.zoom-button.color-forest {
+  background-image: linear-gradient(to left, #b8e994, #78e08f, #38ada9, #079992);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  margin: 10px 20px;
+}
+.zoom-button.color-forest:focus {
+  outline: none;
+}
+.zoom-button.color-forest:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.zoom-button.color-sunshine {
+  background-image: linear-gradient(to left, #fad390, #f6b93b, #fa983a, #e58e26);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  margin: 10px 20px;
+}
+.zoom-button.color-sunshine:focus {
+  outline: none;
+}
+.zoom-button.color-sunshine:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.rotate-button.color-ocean {
+  background-image: linear-gradient(to left, #12CBC4, #1289A7, #0652DD, #1B1464);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 2s;
+  transition: transform 2s;
+  margin: 10px 20px;
+}
+.rotate-button.color-ocean:focus {
+  outline: none;
+}
+.rotate-button.color-ocean:hover {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.rotate-button.color-fire {
+  background-image: linear-gradient(to left, #FFC312, #F79F1F, #EE5A24, #EA2027);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 2s;
+  /* Safari */
+  transition: transform 2s;
+  margin: 10px 20px;
+}
+.rotate-button.color-fire:focus {
+  outline: none;
+}
+.rotate-button.color-fire:hover {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.rotate-button.color-orchid {
+  background-image: linear-gradient(to left, #FDA7DF, #D980FA, #9980FA, #5758BB);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 2s;
+  /* Safari */
+  transition: transform 2s;
+  margin: 10px 20px;
+}
+.rotate-button.color-orchid:focus {
+  outline: none;
+}
+.rotate-button.color-orchid:hover {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.rotate-button.color-grass {
+  background-image: linear-gradient(to left, #C4E538, #A3CB38, #009432, #006266);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 2s;
+  /* Safari */
+  transition: transform 2s;
+  margin: 10px 20px;
+}
+.rotate-button.color-grass:focus {
+  outline: none;
+}
+.rotate-button.color-grass:hover {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.rotate-button.color-raspberry {
+  background-image: linear-gradient(to left, #ED4C67, #B53471, #833471, #833471);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 2s;
+  /* Safari */
+  transition: transform 2s;
+  margin: 10px 20px;
+}
+.rotate-button.color-raspberry:focus {
+  outline: none;
+}
+.rotate-button.color-raspberry:hover {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.rotate-button.color-sky {
+  background-image: linear-gradient(to left, #82ccdd, #60a3bc, #3c6382, #0a3d62);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 2s;
+  /* Safari */
+  transition: transform 2s;
+  margin: 10px 20px;
+}
+.rotate-button.color-sky:focus {
+  outline: none;
+}
+.rotate-button.color-sky:hover {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.rotate-button.color-chili {
+  background-image: linear-gradient(to left, #f8c291, #e55039, #eb2f06, #b71540);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 2s;
+  /* Safari */
+  transition: transform 2s;
+  margin: 10px 20px;
+}
+.rotate-button.color-chili:focus {
+  outline: none;
+}
+.rotate-button.color-chili:hover {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.rotate-button.color-forest {
+  background-image: linear-gradient(to left, #b8e994, #78e08f, #38ada9, #079992);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 2s;
+  /* Safari */
+  transition: transform 2s;
+  margin: 10px 20px;
+}
+.rotate-button.color-forest:focus {
+  outline: none;
+}
+.rotate-button.color-forest:hover {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.rotate-button.color-sunshine {
+  background-image: linear-gradient(to left, #fad390, #f6b93b, #fa983a, #e58e26);
+  padding: 10px 30px;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: crosshair;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  -webkit-transition: -webkit-transform 2s;
+  /* Safari */
+  transition: transform 2s;
+  margin: 10px 20px;
+}
+.rotate-button.color-sunshine:focus {
+  outline: none;
+}
+.rotate-button.color-sunshine:hover {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
