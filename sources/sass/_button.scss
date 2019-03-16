@@ -2,11 +2,11 @@
 @mixin button-bg($bg) {
     background: $bg;
     &:hover {
-        background: darken($bg, 10%);
+        background: darken($bg, 10%); // Background darkens 10% upon hover
         transition: all 0.3s ease;
     }
     &:active {
-        background: darken($bg, 25%);
+        background: darken($bg, 25%); // Background darkens 25% once button is active
     }
     &:focus {
         outline: none;
@@ -15,18 +15,18 @@
 
 // Gradient button mixin
 @mixin gradient-bg($bg1, $bg2, $bg3, $bg4) {
-    background-image: linear-gradient(to left, $bg1, $bg2, $bg3, $bg4);
+    background-image: linear-gradient(to left, $bg1, $bg2, $bg3, $bg4); // Linear gradient that starts from right to left
     padding: 10px 30px;
-    color: #ffffff;
+    color: #ffffff; // Text color
     letter-spacing: 1.2px;
-    font-family: $ff3;
+    font-family: $ff3; // Third font style applied
     font-weight: 500;
     text-decoration: none;
     font-size: 14px;
-    border-radius: 30px;
+    border-radius: 30px; // Added rounded corners of button
     margin: 0 auto;
-    cursor: crosshair;
-    box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+    cursor: crosshair; // Style of cursor
+    box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75); // Box shadow around button
     &:focus {
         outline: none;
     }
@@ -34,19 +34,19 @@
 
 // Basic button style CSS selector and its properties (for left tilt)
 %basic-button {
-    padding: 10px 30px;
-    color: #232323;
+    padding: 10px 30px; // Padding within the button
+    color: #232323; // Text color
     letter-spacing: 1.5px;
-    font-family: $ff;
-    font-weight: 700;
+    font-family: $ff; // Main font style applied
+    font-weight: 700; 
     text-decoration: none;
     font-size: 18px;
-    -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
-    -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
-    box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
-    border-radius: 30px;
+    -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3; // Box shadow (Mozilla)
+    -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3; // Box shadow (Safari)
+    box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3; // Box shadow
+    border-radius: 30px; // Added rounded corners of button
     margin: 0 auto;
-    cursor: crosshair;
+    cursor: crosshair; // Style of cursor
 }
 
 // Transform property mixin

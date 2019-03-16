@@ -552,7 +552,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 1.5s;
   transition: transform 1.5s;
   margin: 10px 20px;
@@ -578,7 +578,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 1.5s;
   /* Safari */
   transition: transform 1.5s;
@@ -605,7 +605,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 1.5s;
   /* Safari */
   transition: transform 1.5s;
@@ -632,7 +632,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 1.5s;
   /* Safari */
   transition: transform 1.5s;
@@ -659,7 +659,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 1.5s;
   /* Safari */
   transition: transform 1.5s;
@@ -686,7 +686,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 1.5s;
   /* Safari */
   transition: transform 1.5s;
@@ -713,7 +713,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 1.5s;
   /* Safari */
   transition: transform 1.5s;
@@ -740,7 +740,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 1.5s;
   /* Safari */
   transition: transform 1.5s;
@@ -767,7 +767,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 1.5s;
   /* Safari */
   transition: transform 1.5s;
@@ -794,7 +794,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -821,7 +821,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -848,7 +848,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -875,7 +875,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -902,7 +902,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -929,7 +929,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -956,7 +956,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -983,7 +983,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -1010,7 +1010,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -1037,7 +1037,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 2s;
   transition: transform 2s;
   margin: 10px 20px;
@@ -1063,7 +1063,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 2s;
   /* Safari */
   transition: transform 2s;
@@ -1090,7 +1090,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 2s;
   /* Safari */
   transition: transform 2s;
@@ -1117,7 +1117,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 2s;
   /* Safari */
   transition: transform 2s;
@@ -1144,7 +1144,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 2s;
   /* Safari */
   transition: transform 2s;
@@ -1171,7 +1171,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 2s;
   /* Safari */
   transition: transform 2s;
@@ -1198,7 +1198,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 2s;
   /* Safari */
   transition: transform 2s;
@@ -1225,7 +1225,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 2s;
   /* Safari */
   transition: transform 2s;
@@ -1252,7 +1252,7 @@ hr {
   border-radius: 30px;
   margin: 0 auto;
   cursor: crosshair;
-  box-shadow: 0 5px 15px 0 rgba(119, 119, 119, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
   -webkit-transition: -webkit-transform 2s;
   /* Safari */
   transition: transform 2s;
