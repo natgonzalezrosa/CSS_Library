@@ -1,5 +1,5 @@
 // Button mixin that darkens background of button when you hover over it
-@mixin button-bg($bg) {
+@mixin button-bg($bg) { // Background variable with parameter
     background: $bg;
     &:hover {
         background: darken($bg, 10%); // Background darkens 10% upon hover

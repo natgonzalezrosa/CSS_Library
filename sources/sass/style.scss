@@ -1,43 +1,49 @@
-$bg: #d0d0d0;
-$ff: arial;
-$ff2: 'Khula', sans-serif;
-$ff3: 'Comfortaa', cursive;
+// Sass Variables
+$bg: #d0d0d0; // Default background color
+$ff: arial; // Main font style
+$ff2: 'Khula', sans-serif; // Second font style
+$ff3: 'Comfortaa', cursive; // Third font style
 
+// Body
 body {
-    background: $bg;
+    background: $bg; // Body passes background variable
     font-family: $ff;
 }
 
+// Main Title of Page
 #mainTitle {
-    font-size: 48px;
+    font-size: 48px; // Font Size
     margin: 0 auto;
-    margin-top: 50px;
-    text-align: center;
-    font-family: 'Homemade Apple', cursive;
-    letter-spacing: 1.5px;
+    margin-top: 50px; // Added margin on top of main title
+    text-align: center; // Align centered
+    font-family: 'Homemade Apple', cursive; // Font style
+    letter-spacing: 1.5px; // Spacing between letters
 }
 
+// Subtitle
 .subtitle {
-    font-size: 24px;
-    text-decoration: underline;
+    font-size: 24px; // Font size
+    text-decoration: underline; // Underlined subtitle
     margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    text-align: center;
-    font-family: 'Homemade Apple', cursive;
-    letter-spacing: 1.2px;
+    margin-top: 50px; // Added margin on top of subtitle
+    margin-bottom: 20px; // Added margin bottom of subtitle
+    text-align: center; // Align centered
+    font-family: 'Homemade Apple', cursive; // Font style
+    letter-spacing: 1.2px; // Spacing between letters
 }
 
+// Applied to div containing buttons and to div containing instructions
 .buttons, .instructions {
-    margin-top: 50px;
+    margin-top: 50px; // Added margin on top of div
     margin: 0 auto;
-    width: 600px;
-    margin-bottom: 50px;
+    width: 600px; // Width of div
+    margin-bottom: 50px; // Margin added below div
 }
 
+// Horizontal rule
 hr {
-    border-top: 2px dashed #000000;
-    margin-bottom: 50px;
+    border-top: 2px dashed #000000; // Dashed black border
+    margin-bottom: 50px; // Added margin to bottom
 }
 
 // Imports button styles
