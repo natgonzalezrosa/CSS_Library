@@ -1,5 +1,5 @@
 // Basic button CSS properties
-%basic-button {
+%basic-button-change {
     padding: 10px 30px; // Padding within button
     color: #232323;
     letter-spacing: 1.5px; // Spacing between letters
@@ -21,7 +21,7 @@
 // Robin Color
 .change-color.color-robin {
     @include button-bg(#94d2ff); // Includes @mixin to darken chosen background
-    @extend %basic-button; // Extends the set of properties above to this button
+    @extend %basic-button-change; // Extends the set of properties above to this button
     margin: 10px 20px; // Space around button
     &:hover {
         background: #fc7a66; // Background changes upon hover
@@ -32,7 +32,7 @@
 // Strawberry Color
 .change-color.color-strawberry {
     @include button-bg(#fc7a66);
-    @extend %basic-button;
+    @extend %basic-button-change;
     margin: 10px 20px;
     &:hover {
         background: #bada55;
@@ -43,7 +43,7 @@
 // Avocado Color
 .change-color.color-avocado {
     @include button-bg(#bada55);
-    @extend %basic-button;
+    @extend %basic-button-change;
     margin: 10px 20px;
     &:hover {
         background: #fef88c;
@@ -54,7 +54,7 @@
 // Honeydew Color
 .change-color.color-honeydew {
     @include button-bg(#fef88c);
-    @extend %basic-button;
+    @extend %basic-button-change;
     margin: 10px 20px;
     &:hover {
         background: #d8b2d8;
@@ -65,7 +65,7 @@
 // Lilac Color
 .change-color.color-lilac {
     @include button-bg(#d8b2d8);
-    @extend %basic-button;
+    @extend %basic-button-change;
     margin: 10px 20px;
     &:hover {
         background: #fef88c;
@@ -76,7 +76,7 @@
 // Teal Color
 .change-color.color-teal {
     @include button-bg(#9bdddd);
-    @extend %basic-button;
+    @extend %basic-button-change;
     margin: 10px 20px;
     &:hover {
         background: #c9b2b4;
@@ -87,7 +87,7 @@
 // Cocoa Color
 .change-color.color-cocoa {
     @include button-bg(#c9b2b4);
-    @extend %basic-button;
+    @extend %basic-button-change;
     margin: 10px 20px;
     &:hover {
         background: #7fc3a1;
@@ -98,7 +98,7 @@
 // Grass Color
 .change-color.color-grass {
     @include button-bg(#7fc3a1);
-    @extend %basic-button;
+    @extend %basic-button-change;
     margin: 10px 20px;
     &:hover {
         background: #ffa584;
@@ -109,7 +109,7 @@
 // Tangerine Color
 .change-color.color-tangerine {
     @include button-bg(#ffa584);
-    @extend %basic-button;
+    @extend %basic-button-change;
     margin: 10px 20px;
     &:hover {
         background: #94d2ff;

@@ -35,22 +35,6 @@ hr {
   margin-bottom: 50px;
 }
 
-.change-color.color-tangerine, .change-color.color-grass, .change-color.color-cocoa, .change-color.color-teal, .change-color.color-lilac, .change-color.color-honeydew, .change-color.color-avocado, .change-color.color-strawberry, .change-color.color-robin {
-  padding: 10px 30px;
-  color: #232323;
-  letter-spacing: 1.5px;
-  font-family: arial;
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 18px;
-  -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
-  -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
-  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.4), inset -1px -1px 1px #d3d3d3;
-  border-radius: 30px;
-  margin: 0 auto;
-  cursor: crosshair;
-}
-
 .left-tilt.color-tangerine, .left-tilt.color-grass, .left-tilt.color-cocoa, .left-tilt.color-teal, .left-tilt.color-lilac, .left-tilt.color-honeydew, .left-tilt.color-avocado, .left-tilt.color-strawberry, .left-tilt.color-robin {
   padding: 10px 30px;
   color: #232323;
