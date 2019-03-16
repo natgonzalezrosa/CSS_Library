@@ -1,31 +1,35 @@
+// Basic button CSS properties
 %basic-button {
-    padding: 10px 30px;
+    padding: 10px 30px; // Padding within button
     color: #232323;
-    letter-spacing: 1.5px;
-    font-family: $ff;
+    letter-spacing: 1.5px; // Spacing between letters
+    font-family: $ff; // Main font style
     font-weight: 700;
     text-decoration: none;
-    font-size: 18px;
-    -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
-    -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
-    box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3;
-    border-radius: 30px;
+    font-size: 18px; // Font size
+    -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3; // Box shadow (Mozilla)
+    -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3; // Box shadow (Safari)
+    box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px #d3d3d3; // Box shadow
+    border-radius: 30px; // Rounded corners of border
     margin: 0 auto;
-    cursor: crosshair;
+    cursor: crosshair; // Cursor style
 }
 
 
 // Basic Button Colors with Background Change
+
+// Robin Color
 .change-color.color-robin {
-    @include button-bg(#94d2ff);
-    @extend %basic-button;
-    margin: 10px 20px;
+    @include button-bg(#94d2ff); // Includes @mixin to darken chosen background
+    @extend %basic-button; // Extends the set of properties above to this button
+    margin: 10px 20px; // Space around button
     &:hover {
-        background: #fc7a66;
-        transition: background 1.2s ease-out;
+        background: #fc7a66; // Background changes upon hover
+        transition: background 1.2s ease-out; // Transition on background, duration and timing function
     }
 }
 
+// Strawberry Color
 .change-color.color-strawberry {
     @include button-bg(#fc7a66);
     @extend %basic-button;
@@ -36,6 +40,7 @@
     }
 }
 
+// Avocado Color
 .change-color.color-avocado {
     @include button-bg(#bada55);
     @extend %basic-button;
@@ -46,6 +51,7 @@
     }
 }
 
+// Honeydew Color
 .change-color.color-honeydew {
     @include button-bg(#fef88c);
     @extend %basic-button;
@@ -55,7 +61,8 @@
         transition: background 1.2s ease-out;
     }
 }
-
+ 
+// Lilac Color
 .change-color.color-lilac {
     @include button-bg(#d8b2d8);
     @extend %basic-button;
@@ -66,6 +73,7 @@
     }
 }
 
+// Teal Color
 .change-color.color-teal {
     @include button-bg(#9bdddd);
     @extend %basic-button;
@@ -76,6 +84,7 @@
     }
 }
 
+// Cocoa Color
 .change-color.color-cocoa {
     @include button-bg(#c9b2b4);
     @extend %basic-button;
@@ -86,6 +95,7 @@
     }
 }
 
+// Grass Color
 .change-color.color-grass {
     @include button-bg(#7fc3a1);
     @extend %basic-button;
@@ -96,6 +106,7 @@
     }
 }
 
+// Tangerine Color
 .change-color.color-tangerine {
     @include button-bg(#ffa584);
     @extend %basic-button;
