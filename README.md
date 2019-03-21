@@ -8,7 +8,7 @@ buttonAnimate.css is a CSS library for ready-to-use animated buttons.  There are
 
 
 ## Instructions to Use
-To use any of these button styles in your own webpage, make sure to include the following external stylesheet between the `<head>` and `</head>` tags in your html file:
+To use any of these button styles in your own webpage, make sure to include the following external stylesheet between the `<head>` and `</head>` tags in your html file:  
 `<link rel="stylesheet" href="https://s3.amazonaws.com/button-animate-css/style.css">`
 
 
