@@ -11,7 +11,7 @@
 
 
 ## Instructions to Use
-To use any of these button styles on your own webpage:
+**To use any of these button styles on your own webpage:**
 1. Make sure to include the following external stylesheet between the `<head>` and `</head>` tags in your html file:  
    
 `<link rel="stylesheet" href="https://s3.amazonaws.com/button-animate-css/style.css">`  
@@ -25,7 +25,8 @@ Basic Button - Right Tilt | right-tilt
 Basic Button - Color Change | change-color
 Gradient Button - Rotate 180° | gradient-button
 Gradient Button - Zoom-In | zoom-button
-Gradient Button - Rotate 360° | rotate-button
+Gradient Button - Rotate 360° | rotate-button  
+  
 
 3. Once you found the class for the style of button you desire, find the class for the color you want to use (go by the color written in the button):
 
@@ -39,7 +40,8 @@ Lilac | color-lilac
 Teal | color-teal
 Cocoa | color-cocoa
 Grass | color-grass
-Tangerine | color-tangerine
+Tangerine | color-tangerine  
+  
 
 Color for Gradient Button | Class Name
 ------------ | -------------
@@ -51,7 +53,8 @@ Raspberry | color-raspberry
 Sky | color-sky
 Chili | color-chili
 Forest | color-forest
-Sunshine | color-sunshine
+Sunshine | color-sunshine  
+  
 
 4. Now that you've noted the class name for both the style of button and color of button you want to use, plug them into the code for your button like so:
 
@@ -68,3 +71,6 @@ If you followed the steps above, you are now ready to use your animated buttons!
 
 ## Landing Page
 
+![Screenshot](sources/images/screenshot.png)
+
+[Click to visit the landing page:](https://natgonzalezrosa.github.io/buttonAnimate.css/)
