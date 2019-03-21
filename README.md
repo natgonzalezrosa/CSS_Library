@@ -29,6 +29,7 @@ Gradient Button - Rotate 360° | rotate-button
 3. Once you found the class for the style of button you desire, find the class for the color you want to use (go by the color written in the button):
 
 Color for Basic Button | Class Name
+------------ | -------------
 Robin | color-robin
 Strawberry | color-strawberry
 Avocado | color-avocado
@@ -40,6 +41,7 @@ Grass | color-grass
 Tangerine | color-tangerine
 
 Color for Gradient Button | Class Name
+------------ | -------------
 Ocean | color-ocean
 Fire | color-fire
 Orchid | color-orchid
