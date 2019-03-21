@@ -12,9 +12,10 @@
 
 ## Instructions to Use
 To use any of these button styles on your own webpage:
-1. Make sure to include the following external stylesheet between the `<head>` and `</head>` tags in your html file:    
+1. Make sure to include the following external stylesheet between the `<head>` and `</head>` tags in your html file:  
+   
 `<link rel="stylesheet" href="https://s3.amazonaws.com/button-animate-css/style.css">`  
-
+  
 2. To choose a particular button, first find the class for the style you want to use:
 
 Type of Button | Class Name
