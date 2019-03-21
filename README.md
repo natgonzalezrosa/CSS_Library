@@ -71,6 +71,4 @@ If you followed the steps above, you are now ready to use your animated buttons!
 
 ## Landing Page
 
-![Screenshot](sources/images/screenshot.png)
-
-[Click to visit the landing page:](https://natgonzalezrosa.github.io/buttonAnimate.css/)
+[Click here to visit the landing page](https://natgonzalezrosa.github.io/buttonAnimate.css/)
