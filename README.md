@@ -1,12 +1,9 @@
 # About buttonAnimate.css
 buttonAnimate.css is a CSS library for ready-to-use animated buttons.
 
-
-## Landing Page
-
-
-## Demo Screenshots
-
+## Button Demos
+![Basic Buttons](/sources/images/demo_basicbuttons.gif)  
+![Gradient Buttons](sources/images/demo_gradientbuttons.gif)
 
 ## Example Use Cases
 
@@ -14,4 +11,5 @@ buttonAnimate.css is a CSS library for ready-to-use animated buttons.
 ## Instructions to Use
 
 
-## Resources
+## Landing Page
+
