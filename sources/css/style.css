@@ -39,6 +39,10 @@ hr {
   margin-bottom: 50px;
 }
 
+.bioPic {
+  border-radius: 100px;
+}
+
 a {
   text-decoration: none;
   cursor: crosshair;

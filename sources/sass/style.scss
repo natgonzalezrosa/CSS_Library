@@ -51,6 +51,11 @@ hr {
     margin-bottom: 50px; // Added margin to bottom
 }
 
+// Biography pic
+.bioPic {
+    border-radius: 100px; 
+}
+
 // Imports button styles
 @import "button";
 @import "buttonlefttilt";
