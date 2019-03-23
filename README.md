@@ -72,3 +72,8 @@ If you followed the steps above, you are now ready to use your animated buttons!
 ## Landing Page
 
 [Click here to visit the landing page](https://natgonzalezrosa.github.io/buttonAnimate.css/)
+
+## Hire Me
+I am a front-end developer with experience in the following technologies: HTML, CSS, SASS, Bootstrap, Javascript, jQuery and React.  [Check out my portfolio here for more projects that I've worked on](https://natgonzalezrosa.github.io/newPortfolio/).  
+  
+Want to hire me for your next website?  Does your team need a savvy front-end developer?  [Email me by clicking here](mailto:natgonzalezrosa@gmail.com).
