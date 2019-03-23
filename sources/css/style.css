@@ -1,6 +1,5 @@
 body {
   background: #d0d0d0;
-  font-family: arial;
 }
 
 #mainTitle {
@@ -23,6 +22,11 @@ body {
   letter-spacing: 1.2px;
 }
 
+.regText {
+  font-family: "Comfortaa", cursive;
+  letter-spacing: 1.2px;
+}
+
 .buttons, .instructions {
   margin-top: 50px;
   margin: 0 auto;
@@ -39,7 +43,7 @@ hr {
   padding: 10px 30px;
   color: #232323;
   letter-spacing: 1.5px;
-  font-family: arial;
+  font-family: Helvetica;
   font-weight: 700;
   text-decoration: none;
   font-size: 18px;
@@ -190,7 +194,7 @@ hr {
   padding: 10px 30px;
   color: #232323;
   letter-spacing: 1.5px;
-  font-family: arial;
+  font-family: Helvetica;
   font-weight: 700;
   text-decoration: none;
   font-size: 18px;
@@ -341,7 +345,7 @@ hr {
   padding: 10px 30px;
   color: #232323;
   letter-spacing: 1.5px;
-  font-family: arial;
+  font-family: Helvetica;
   font-weight: 700;
   text-decoration: none;
   font-size: 18px;

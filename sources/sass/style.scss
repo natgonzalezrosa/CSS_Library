@@ -1,13 +1,12 @@
 // Sass Variables
 $bg: #d0d0d0; // Default background color
-$ff: arial; // Main font style
+$ff: Helvetica; // Main font style
 $ff2: 'Khula', sans-serif; // Second font style
 $ff3: 'Comfortaa', cursive; // Third font style
 
 // Body
 body {
     background: $bg; // Body passes background variable
-    font-family: $ff;
 }
 
 // Main Title of Page
@@ -30,6 +29,12 @@ body {
     text-align: center; // Align centered
     font-family: 'Homemade Apple', cursive; // Font style
     letter-spacing: 1.2px; // Spacing between letters
+}
+
+// Regular Text
+.regText {
+    font-family: $ff3; // Font style;
+    letter-spacing: 1.2px;
 }
 
 // Applied to div containing buttons and to div containing instructions
