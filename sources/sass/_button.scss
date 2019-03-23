@@ -55,3 +55,9 @@
     -ms-transform: $property;
     transform: $property;
 }
+
+a {
+    text-decoration: none;
+    cursor: crosshair;
+    color: #ae3135;
+}

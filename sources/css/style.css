@@ -27,7 +27,7 @@ body {
   letter-spacing: 1.2px;
 }
 
-.buttons, .instructions {
+.buttons, .instructions, .hireMe {
   margin-top: 50px;
   margin: 0 auto;
   width: 600px;
@@ -37,6 +37,12 @@ body {
 hr {
   border-top: 2px dashed #000000;
   margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  cursor: crosshair;
+  color: #ae3135;
 }
 
 .left-tilt.color-tangerine, .left-tilt.color-grass, .left-tilt.color-cocoa, .left-tilt.color-teal, .left-tilt.color-lilac, .left-tilt.color-honeydew, .left-tilt.color-avocado, .left-tilt.color-strawberry, .left-tilt.color-robin {
