@@ -54,6 +54,8 @@ hr {
 // Biography pic
 .bioPic {
     border-radius: 100px; 
+    box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75); // Box shadow around pic
+    float: left;
 }
 
 // Imports button styles

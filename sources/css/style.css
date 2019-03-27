@@ -41,6 +41,8 @@ hr {
 
 .bioPic {
   border-radius: 100px;
+  box-shadow: 0 5px 5px 0 rgba(119, 119, 119, 0.75);
+  float: left;
 }
 
 a {
