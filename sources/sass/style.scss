@@ -35,6 +35,11 @@ body {
 .regText {
     font-family: $ff3; // Font style;
     letter-spacing: 1.2px;
+    line-height: 1.5;
+}
+
+.redText {
+    color: #ae3135;
 }
 
 // Applied to div containing buttons and to div containing instructions
@@ -43,6 +48,10 @@ body {
     margin: 0 auto;
     width: 600px; // Width of div
     margin-bottom: 50px; // Margin added below div
+}
+
+.hireMe {
+    margin-bottom: 300px;
 }
 
 // Horizontal rule

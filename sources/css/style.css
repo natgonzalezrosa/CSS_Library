@@ -25,6 +25,11 @@ body {
 .regText {
   font-family: "Comfortaa", cursive;
   letter-spacing: 1.2px;
+  line-height: 1.5;
+}
+
+.redText {
+  color: #ae3135;
 }
 
 .buttons, .instructions, .hireMe {
@@ -32,6 +37,10 @@ body {
   margin: 0 auto;
   width: 600px;
   margin-bottom: 50px;
+}
+
+.hireMe {
+  margin-bottom: 300px;
 }
 
 hr {
