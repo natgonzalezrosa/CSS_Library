@@ -1,3 +1,29 @@
+// Sass variables for responsiveness
+$mobile-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+// Mixin for mobile
+@mixin mobile {
+    @media (max-width: #{$mobile-width}) {
+        @content;
+    }
+}
+
+// Mixin for tablet
+@mixin tablet {
+    @media (max-width: #{$tablet-width}) {
+        @content;
+    }
+}
+
+// Mixing for desktop 
+@mixin desktop {
+    @media (min-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
 // Sass Variables
 $bg: #d0d0d0; // Default background color
 $ff: Helvetica; // Main font style
@@ -17,6 +43,10 @@ body {
     text-align: center; // Align centered
     font-family: 'Homemade Apple', cursive; // Font style
     letter-spacing: 1.5px; // Spacing between letters
+    @include mobile {
+        width: 370px;
+        font-size: 36px;
+    }
 }
 
 // Subtitle
@@ -48,10 +78,16 @@ body {
     margin: 0 auto;
     width: 600px; // Width of div
     margin-bottom: 50px; // Margin added below div
+    @include mobile {
+        width: 370px;
+    }
 }
 
 .hireMe {
-    margin-bottom: 300px;
+    margin-bottom: 200px;
+    @include mobile {
+        margin-bottom: 100px;
+    }
 }
 
 // Horizontal rule

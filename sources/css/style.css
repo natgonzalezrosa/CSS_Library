@@ -10,6 +10,12 @@ body {
   font-family: "Homemade Apple", cursive;
   letter-spacing: 1.5px;
 }
+@media (max-width: 480px) {
+  #mainTitle {
+    width: 370px;
+    font-size: 36px;
+  }
+}
 
 .subtitle {
   font-size: 24px;
@@ -38,9 +44,19 @@ body {
   width: 600px;
   margin-bottom: 50px;
 }
+@media (max-width: 480px) {
+  .buttons, .instructions, .hireMe {
+    width: 370px;
+  }
+}
 
 .hireMe {
-  margin-bottom: 300px;
+  margin-bottom: 200px;
+}
+@media (max-width: 480px) {
+  .hireMe {
+    margin-bottom: 100px;
+  }
 }
 
 hr {
